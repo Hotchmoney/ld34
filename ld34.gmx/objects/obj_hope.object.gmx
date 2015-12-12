@@ -32,6 +32,7 @@
     text=instance_create(400,492,obj_uitext);
     text.depth=-1;
     text.image_yscale=0.86;
+    text.textstring="You and the egg contemplate the nature of existence....";
 }else{
     obj_companion.sprite_index=spr_hope_image;
     dbclick+=20;    

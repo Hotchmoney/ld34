@@ -32,6 +32,7 @@
     text=instance_create(400,492,obj_uitext);
     text.depth=-1;
     text.image_yscale=0.86;
+    text.textstring = "Your egg watches the sun set over the horizon with an inscrutable expression....";
 }else{
     obj_companion.sprite_index=spr_plains_image;
     dbclick+=20;    
