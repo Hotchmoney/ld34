@@ -1,7 +1,7 @@
 # Writing
 **Play**
-* Hope: 
-* Makeover
+* Hope: You and the egg contemplate the nature of existence.
+* Makeover:
 * Read: You and the egg take a critical look at Dostoyevsky.
 * Work Out: You and the egg pump some iron. It told you it wants to get swol.
 
@@ -15,7 +15,7 @@
 * Berries
 * Candy
 * Noodles
-* Steak
+* Steak: The egg tears into the huge slab of meat. It must have been ravenous.
 
 **Talk**
 * Joke
