@@ -54,6 +54,7 @@
     <object>objects\obj_exploring</object>
     <object>objects\obj_Control</object>
     <object>objects\obj_ui</object>
+    <object>objects\obj_button</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start_Rooms</room>
