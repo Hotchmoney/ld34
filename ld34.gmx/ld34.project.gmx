@@ -11,6 +11,11 @@
     <sprite>sprites\spr_Food</sprite>
     <sprite>sprites\spr_Talk</sprite>
     <sprite>sprites\spr_Explore</sprite>
+    <sprite>sprites\UI</sprite>
+    <sprite>sprites\spr_strength</sprite>
+    <sprite>sprites\spr_smarts</sprite>
+    <sprite>sprites\spr_goodLooking</sprite>
+    <sprite>sprites\spr_magic</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -18,7 +23,7 @@
     <script>scripts\hatchingEgg.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_Egg</object>
+    <object>objects\obj_companion</object>
     <object>objects\obj_play</object>
     <object>objects\obj_talk</object>
     <object>objects\obj_food</object>
