@@ -27,12 +27,6 @@
             <kind>1</kind>
             <string>//stats block
 
-var strength;
-var smarts;
-var goodLooking;
-var magic;
-var statCounter;
-
 strength=0;
 smarts=0;
 goodLooking=0;
