@@ -5,9 +5,21 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\Egg</sprite>
+    <sprite>sprites\Play</sprite>
+    <sprite>sprites\Food</sprite>
+    <sprite>sprites\Talk</sprite>
+    <sprite>sprites\Exploring</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_Egg</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\Start_Rooms</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
