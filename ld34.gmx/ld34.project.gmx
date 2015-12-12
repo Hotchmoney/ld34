@@ -16,11 +16,46 @@
     <sprite>sprites\spr_smarts</sprite>
     <sprite>sprites\spr_goodLooking</sprite>
     <sprite>sprites\spr_magic</sprite>
+    <sprites name="explore">
+      <sprite>sprites\spr_campfire</sprite>
+      <sprite>sprites\spr_hills</sprite>
+      <sprite>sprites\spr_plains</sprite>
+      <sprite>sprites\spr_shore</sprite>
+    </sprites>
+    <sprites name="feed">
+      <sprite>sprites\spr_berries</sprite>
+      <sprite>sprites\spr_candy</sprite>
+      <sprite>sprites\spr_noodles</sprite>
+      <sprite>sprites\spr_steak</sprite>
+    </sprites>
+    <sprites name="play">
+      <sprite>sprites\spr_hope</sprite>
+      <sprite>sprites\spr_makeover</sprite>
+      <sprite>sprites\spr_read</sprite>
+      <sprite>sprites\spr_workout</sprite>
+    </sprites>
+    <sprites name="talk">
+      <sprite>sprites\spr_joke</sprite>
+      <sprite>sprites\spr_peptalk</sprite>
+      <sprite>sprites\spr_riddle</sprite>
+      <sprite>sprites\spr_secret</sprite>
+    </sprites>
+    <sprites name="food_images">
+      <sprite>sprites\spr_berries_image</sprite>
+      <sprite>sprites\spr_candy_image</sprite>
+      <sprite>sprites\spr_noodles_image</sprite>
+      <sprite>sprites\spr_steak_image</sprite>
+    </sprites>
+    <sprites name="play_images">
+      <sprite>sprites\spr_read_image</sprite>
+      <sprite>sprites\spr_workout_image</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\hatchingEgg.gml</script>
+    <script>scripts\StrengthCounter.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_companion</object>
@@ -30,6 +65,37 @@
     <object>objects\obj_exploring</object>
     <object>objects\obj_Control</object>
     <object>objects\obj_ui</object>
+    <objects name="explore">
+      <object>objects\obj_campfire</object>
+      <object>objects\obj_hills</object>
+      <object>objects\obj_plains</object>
+      <object>objects\obj_shore</object>
+    </objects>
+    <objects name="feed">
+      <object>objects\obj_berries</object>
+      <object>objects\obj_candy</object>
+      <object>objects\obj_noodles</object>
+      <object>objects\obj_steak</object>
+    </objects>
+    <objects name="play">
+      <object>objects\obj_read</object>
+      <object>objects\obj_hope</object>
+      <object>objects\obj_makeover</object>
+      <object>objects\obj_workout</object>
+    </objects>
+    <objects name="talk">
+      <object>objects\obj_joke</object>
+      <object>objects\obj_peptalk</object>
+      <object>objects\obj_riddle</object>
+      <object>objects\obj_secret</object>
+    </objects>
+    <objects name="parameter">
+      <object>objects\param_Buttons</object>
+      <object>objects\param_StrengthCounters</object>
+      <object>objects\param_GoodLookingCounters</object>
+      <object>objects\param_MagicCounters</object>
+      <object>objects\param_SmartsCounters</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start_Rooms</room>
