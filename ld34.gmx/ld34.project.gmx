@@ -85,6 +85,7 @@
     <object>objects\obj_exploring</object>
     <object>objects\obj_Control</object>
     <object>objects\obj_ui</object>
+    <object>objects\obj_uitext</object>
     <objects name="explore">
       <object>objects\obj_campfire</object>
       <object>objects\obj_hills</object>

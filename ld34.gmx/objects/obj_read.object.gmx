@@ -27,10 +27,11 @@
             <kind>1</kind>
             <string>if(dbclick&gt;0){
     //dbclicked
-    obj_companion.sprite_index=obj_companion.spriteindex;
     obj_Control.smarts+=1;
     obj_Control.statCounter+=1;
-    room_goto(Start_Rooms);
+    text=instance_create(400,492,obj_uitext);
+    text.depth=-1;
+    text.image_yscale=0.86;
 }else{
     obj_companion.sprite_index=spr_read_image;
     dbclick+=20;    
