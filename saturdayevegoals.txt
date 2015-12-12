@@ -4,8 +4,6 @@ Make and implement backgrounds
 
 Whale Sprite
 
-Randomly select egg sprite
-
 Back button
 
 Write + implement text
