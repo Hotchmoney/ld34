@@ -1,4 +1,4 @@
-strength = argument0;
-smarts = argument1;
-goodLooking = argument2;
-magic = argument3;
+thisStrength = argument0;
+thisSmarts = argument1;
+thiGoodLooking = argument2;
+thisMagic = argument3;

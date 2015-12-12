@@ -23,7 +23,7 @@
     <object>objects\obj_talk</object>
     <object>objects\obj_food</object>
     <object>objects\obj_exploring</object>
-    <object>objects\Control</object>
+    <object>objects\obj_Control</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start_Rooms</room>
