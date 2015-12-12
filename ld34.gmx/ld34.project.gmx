@@ -6,7 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\Egg</sprite>
+    <sprite>sprites\spr_egg1</sprite>
     <sprite>sprites\Play</sprite>
     <sprite>sprites\Food</sprite>
     <sprite>sprites\Talk</sprite>
@@ -16,6 +16,11 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_Egg</object>
+    <object>objects\obj_play</object>
+    <object>objects\obj_talk</object>
+    <object>objects\obj_food</object>
+    <object>objects\obj_exploring</object>
+    <object>objects\Control</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start_Rooms</room>
