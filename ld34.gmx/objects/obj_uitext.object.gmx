@@ -73,7 +73,6 @@ room_goto(Start_Rooms);
           <argument>
             <kind>1</kind>
             <string>draw_text(obj_uitext.x,obj_uitext.y,string(textstring));
-draw_set_font(gameFont);
 draw_set_color(c_black);
 </string>
           </argument>
