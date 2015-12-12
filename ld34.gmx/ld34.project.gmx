@@ -58,6 +58,12 @@
       <sprite>sprites\spr_plains_image</sprite>
       <sprite>sprites\spr_shore_image</sprite>
     </sprites>
+    <sprites name="talk_images">
+      <sprite>sprites\spr_joke_image</sprite>
+      <sprite>sprites\spr_peptalk_image</sprite>
+      <sprite>sprites\spr_riddle_image</sprite>
+      <sprite>sprites\spr_secret_image</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
