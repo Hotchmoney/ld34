@@ -40,6 +40,16 @@
       <sprite>sprites\spr_riddle</sprite>
       <sprite>sprites\spr_secret</sprite>
     </sprites>
+    <sprites name="food_images">
+      <sprite>sprites\spr_berries_image</sprite>
+      <sprite>sprites\spr_candy_image</sprite>
+      <sprite>sprites\spr_noodles_image</sprite>
+      <sprite>sprites\spr_steak_image</sprite>
+    </sprites>
+    <sprites name="play_images">
+      <sprite>sprites\spr_read_image</sprite>
+      <sprite>sprites\spr_workout_image</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

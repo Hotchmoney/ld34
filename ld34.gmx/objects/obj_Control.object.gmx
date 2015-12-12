@@ -58,13 +58,13 @@ statCounter=1;
     hatchIndex = hatchingEgg(strength,smarts,goodLooking,magic);
     switch (hatchIndex){
     case 0:
-        sprite_index=spr_strength;
+        obj_companion.sprites_index=spr_strength;
     case 1:
-        sprite_index=spr_smarts;
+        obj_companion.sprites_index=spr_smarts;
     case 2:
-        sprite_index=spr_goodLooking;
+        obj_companion.sprites_index=spr_goodLooking;
     case 3:
-        sprite_index=spr_magic;
+        obj_companion.sprites_index=spr_magic;
     }
 }//when stat counter reaches 5, we call hatching egg to find out max value and then we do a switch to switch sprite index.
 
