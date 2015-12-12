@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_ui" x="402" y="490" name="inst_C7FF2093" locked="0" code="" scaleX="1.00250315666199" scaleY="0.879999995231628" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ui" x="400" y="492" name="inst_C7FF2093" locked="0" code="" scaleX="1" scaleY="0.860000014305115" colour="4294967295" rotation="0"/>
     <instance objName="obj_berries" x="224" y="448" name="inst_DD84629A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_candy" x="608" y="448" name="inst_60622909" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_noodles" x="224" y="544" name="inst_9720DD1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
