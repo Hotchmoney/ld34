@@ -54,7 +54,37 @@
     <object>objects\obj_exploring</object>
     <object>objects\obj_Control</object>
     <object>objects\obj_ui</object>
-    <object>objects\obj_button</object>
+    <objects name="explore">
+      <object>objects\obj_campfire</object>
+      <object>objects\obj_hills</object>
+      <object>objects\obj_plains</object>
+      <object>objects\obj_shore</object>
+    </objects>
+    <objects name="feed">
+      <object>objects\obj_berries</object>
+      <object>objects\obj_candy</object>
+      <object>objects\obj_noodles</object>
+      <object>objects\obj_steak</object>
+    </objects>
+    <objects name="play">
+      <object>objects\obj_read</object>
+      <object>objects\obj_hope</object>
+      <object>objects\obj_makeover</object>
+      <object>objects\obj_workout</object>
+    </objects>
+    <objects name="talk">
+      <object>objects\obj_joke</object>
+      <object>objects\obj_peptalk</object>
+      <object>objects\obj_riddle</object>
+      <object>objects\obj_secret</object>
+    </objects>
+    <objects name="parameter">
+      <object>objects\param_Buttons</object>
+      <object>objects\param_StrengthCounters</object>
+      <object>objects\param_GoodLookingCounters</object>
+      <object>objects\param_MagicCounters</object>
+      <object>objects\param_SmartsCounters</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start_Rooms</room>
