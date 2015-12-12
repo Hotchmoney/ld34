@@ -19,3 +19,8 @@ Talk
 * Peptalk: You give the egg an inspiring speech, and it feels like it can do anything.
 * Riddle: You perplex the egg with a brain-teaser. It furrows its brow.
 * Secret: You tell the egg a scandalous truth. It can’t believe what it just heard.
+Creatures
+Birdbrain: This feathered friend doesn’t like to sing, but he’s an excellent debater!
+Griz: Don’t let her cute looks fool you! This powerful creature is loyal and ferocious.
+Kawaile: When you’re feeling blue, Kawaile always has a mighty funny joke ready!
+Moriarty: No one knows how this rat learned magic, but you gotta respect her, right?
