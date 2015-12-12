@@ -49,6 +49,8 @@
     <sprites name="play_images">
       <sprite>sprites\spr_read_image</sprite>
       <sprite>sprites\spr_workout_image</sprite>
+      <sprite>sprites\spr_makeup_image</sprite>
+      <sprite>sprites\spr_hope_image</sprite>
     </sprites>
     <sprites name="explore_images">
       <sprite>sprites\spr_campfire_image</sprite>
