@@ -16,6 +16,30 @@
     <sprite>sprites\spr_smarts</sprite>
     <sprite>sprites\spr_goodLooking</sprite>
     <sprite>sprites\spr_magic</sprite>
+    <sprites name="play">
+      <sprite>sprites\spr_workout</sprite>
+      <sprite>sprites\spr_read</sprite>
+      <sprite>sprites\spr_makeover</sprite>
+      <sprite>sprites\spr_hope</sprite>
+    </sprites>
+    <sprites name="explore">
+      <sprite>sprites\spr_campfire</sprite>
+      <sprite>sprites\spr_hills</sprite>
+      <sprite>sprites\spr_plains</sprite>
+      <sprite>sprites\spr_shore</sprite>
+    </sprites>
+    <sprites name="feed">
+      <sprite>sprites\spr_steak</sprite>
+      <sprite>sprites\spr_noodles</sprite>
+      <sprite>sprites\spr_berries</sprite>
+      <sprite>sprites\spr_candy</sprite>
+    </sprites>
+    <sprites name="talk">
+      <sprite>sprites\spr_joke</sprite>
+      <sprite>sprites\spr_peptalk</sprite>
+      <sprite>sprites\spr_riddle</sprite>
+      <sprite>sprites\spr_secret</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -29,6 +53,9 @@
     <object>objects\obj_food</object>
     <object>objects\obj_exploring</object>
     <object>objects\obj_Control</object>
+    <objects name="play">
+      <object>objects\object6</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start_Rooms</room>
