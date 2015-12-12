@@ -27,6 +27,10 @@
             <kind>1</kind>
             <string>step=0;
 flag=true;
+var i;
+i=random_range(1,8);
+var sprname="spr_egg"+string(i);
+obj_companion.sprite_index=sprname;
 </string>
           </argument>
         </arguments>
