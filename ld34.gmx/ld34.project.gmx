@@ -71,7 +71,6 @@
       <sprite>sprites\spr_riddle_image</sprite>
       <sprite>sprites\spr_secret_image</sprite>
     </sprites>
-    <sprite>sprites\sprite42</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
