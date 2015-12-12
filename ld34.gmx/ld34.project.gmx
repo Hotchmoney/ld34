@@ -27,6 +27,10 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\Start_Rooms</room>
+    <room>rooms\rm_play</room>
+    <room>rooms\rm_talk</room>
+    <room>rooms\rm_food</room>
+    <room>rooms\rm_exploring</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
