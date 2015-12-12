@@ -7,10 +7,10 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_egg1</sprite>
-    <sprite>sprites\Play</sprite>
-    <sprite>sprites\Food</sprite>
-    <sprite>sprites\Talk</sprite>
-    <sprite>sprites\Exploring</sprite>
+    <sprite>sprites\spr_Play</sprite>
+    <sprite>sprites\spr_Food</sprite>
+    <sprite>sprites\spr_Talk</sprite>
+    <sprite>sprites\spr_Explore</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
