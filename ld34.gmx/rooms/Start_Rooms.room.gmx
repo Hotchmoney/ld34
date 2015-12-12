@@ -57,7 +57,7 @@
     <instance objName="obj_food" x="608" y="448" name="inst_4E41CFD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_exploring" x="608" y="544" name="inst_8821CCF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Control" x="64" y="32" name="inst_006BB4A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ui" x="400" y="493" name="inst_26943A40" locked="0" code="" scaleX="1" scaleY="0.859437763690948" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ui" x="400" y="492" name="inst_26943A40" locked="0" code="" scaleX="1" scaleY="0.859437763690948" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

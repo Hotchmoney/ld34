@@ -25,8 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_Control.statCounter+=1;
-room_goto(rm_exploring);
+            <string>room_goto(rm_exploring);
 </string>
           </argument>
         </arguments>
