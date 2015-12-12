@@ -66,6 +66,7 @@ statCounter=1;
     case 3:
         obj_companion.sprites_index=spr_magic;
     }
+    room_goto(rm_hatchery);
 }//when stat counter reaches 5, we call hatching egg to find out max value and then we do a switch to switch sprite index.
 
 </string>

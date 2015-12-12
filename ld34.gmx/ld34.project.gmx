@@ -61,6 +61,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\hatchingEgg.gml</script>
+    <script>scripts\StrengthCounter.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_companion</object>
@@ -108,6 +109,7 @@
     <room>rooms\rm_talk</room>
     <room>rooms\rm_food</room>
     <room>rooms\rm_exploring</room>
+    <room>rooms\rm_hatchery</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
