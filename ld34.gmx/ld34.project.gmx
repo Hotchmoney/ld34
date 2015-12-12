@@ -11,7 +11,7 @@
     <sprite>sprites\spr_Food</sprite>
     <sprite>sprites\spr_Talk</sprite>
     <sprite>sprites\spr_Explore</sprite>
-    <sprite>sprites\UI</sprite>
+    <sprite>sprites\spr_UI</sprite>
     <sprite>sprites\spr_strength</sprite>
     <sprite>sprites\spr_smarts</sprite>
     <sprite>sprites\spr_goodLooking</sprite>
@@ -53,9 +53,13 @@
     <object>objects\obj_food</object>
     <object>objects\obj_exploring</object>
     <object>objects\obj_Control</object>
+<<<<<<< HEAD
     <objects name="play">
       <object>objects\object6</object>
     </objects>
+=======
+    <object>objects\obj_ui</object>
+>>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\Start_Rooms</room>
