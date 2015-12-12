@@ -31,12 +31,13 @@ globalvar strength;
 globalvar smarts;
 globalvar goodLooking;
 globalvar magic;
+globalvar statCounter;
 
 strength=0;
 smarts=0;
 goodLooking=0;
 magic=0;
-
+statCounter=1;
 </string>
           </argument>
         </arguments>
@@ -59,9 +60,8 @@ magic=0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (mouse_button = = mb_left)
-{
-    
+            <string>if (statCounter==5){
+    hatchingEgg(global.strength,global.smarts,global.goodLooking,global.magic);
 }
 </string>
           </argument>
