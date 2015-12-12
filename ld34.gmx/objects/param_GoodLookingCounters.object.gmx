@@ -25,9 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_Control.goodLooking+=1;
-obj_Control.statCounter+=1;
-room_goto(Start_Rooms);
+            <string>if(flag==true){
+    obj_Control.goodLooking+=1;
+    obj_Control.statCounter+=1;
+    room_goto(Start_Rooms);
+}
 </string>
           </argument>
         </arguments>

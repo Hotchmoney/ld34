@@ -65,6 +65,7 @@ switch (i){
         break;
     
 }
+spriteindex = sprite_index;
 </string>
           </argument>
         </arguments>

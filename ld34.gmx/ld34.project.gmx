@@ -111,10 +111,7 @@
     </objects>
     <objects name="parameter">
       <object>objects\param_Buttons</object>
-      <object>objects\param_StrengthCounters</object>
-      <object>objects\param_GoodLookingCounters</object>
-      <object>objects\param_MagicCounters</object>
-      <object>objects\param_SmartsCounters</object>
+      <object>objects\param_dbclick</object>
     </objects>
   </objects>
   <rooms name="rooms">
