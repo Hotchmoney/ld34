@@ -69,7 +69,6 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\hatchingEgg.gml</script>
-    <script>scripts\StrengthCounter.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_companion</object>

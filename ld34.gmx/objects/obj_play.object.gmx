@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(rm_play);
+            <string>if (obj_Control.statCounter&lt;6){
+    room_goto(rm_play);
+}
 </string>
           </argument>
         </arguments>
