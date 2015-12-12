@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_companion.smarts+=1;
+            <string>obj_Control.smarts+=1;
 room_goto(Start_Rooms);
 </string>
           </argument>
