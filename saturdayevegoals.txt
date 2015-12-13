@@ -1,17 +1,24 @@
 SATURDAY EVENING GOALS
 
-Make and implement backgrounds
-
-Whale Sprite
-
-Randomly select egg sprite
-
-Back button
-
-Write + implement text
-
-preview icons
-
 carter's thing
 
-concept new creatures
+SUNDAY MORNING GOALS
+
+done
+
+SUNDAY EVENING GOALS
+
+* add nova's UI & splash screen
+
+* add sound
+
+* more text, multiple options
+	* ocean text
+
+MONDAY GOALS
+
+* two more expansions
+
+* save/load features
+
+* eggdex of egg friends

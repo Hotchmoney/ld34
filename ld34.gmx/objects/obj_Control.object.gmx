@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>//stats block
-
+waterunlock=false;
+iswater=false;
 strength=0;
 smarts=0;
 goodLooking=0;
@@ -58,23 +59,55 @@ hatchindex=0;
           <argument>
             <kind>1</kind>
             <string>switch (hatchindex){
-    case 0:
-        obj_companion.sprite_index=spr_strength;
-        break;
-    
     case 1:
-        obj_companion.sprite_index=spr_smarts;
+        obj_companion.sprite_index=spr_001;
         break;
-        
     case 2:
-        obj_companion.sprite_index=spr_goodLooking;
+        obj_companion.sprite_index=spr_002;
         break;
-        
     case 3:
-        obj_companion.sprite_index=spr_magic;
+        obj_companion.sprite_index=spr_003;
         break;
-        
-}   
+    case 10:
+        obj_companion.sprite_index=spr_010;
+        break;
+    case 12:
+        obj_companion.sprite_index=spr_012;
+        break;
+    case 13:
+        obj_companion.sprite_index=spr_013;
+        break;
+    case 20:
+        obj_companion.sprite_index=spr_020;
+        break;
+    case 21:
+        obj_companion.sprite_index=spr_021;
+        break;
+    case 23:
+        obj_companion.sprite_index=spr_023;
+        break;
+    case 30:
+        obj_companion.sprite_index=spr_030;
+        break;
+    case 31:
+        obj_companion.sprite_index=spr_031;
+        break;
+    case 32:
+        obj_companion.sprite_index=spr_032;
+        break;
+    case 100:
+        obj_companion.sprite_index=spr_100;
+        break;
+    case 110:
+        obj_companion.sprite_index=spr_110;
+        break;
+    case 120:
+        obj_companion.sprite_index=spr_120;
+        break;
+    case 130:
+        obj_companion.sprite_index=spr_130;
+        break;
+}//sprites
 </string>
           </argument>
         </arguments>
@@ -122,8 +155,8 @@ room_goto(rm_hatchery);
           <argument>
             <kind>1</kind>
             <string>
-if (statCounter==6 &amp;&amp; flag1==false){
-    hatchindex = hatchingEgg(strength,smarts,goodLooking,magic);
+if (statCounter&gt;=6 &amp;&amp; flag1==false &amp;&amp; room==Start_Rooms){
+    hatchindex = hatchingEgg(strength,smarts,goodLooking,magic,iswater);
     flag=true;
     flag1=true;
 }//when stat counter reaches 5, we call hatching egg to find out max value and then we do a switch to switch sprite index.
@@ -132,6 +165,21 @@ if (flag==true){
     alarm[0]=30;
     flag=false;
 }
+
+if (statCounter&gt;=6 &amp;&amp; room!=rm_hatchery){
+
+    obj_companion.sprite_index=obj_companion.spriteindex;
+
+}
+
+//bug checking
+
+if (statCounter&gt;5 &amp;&amp; (room==rm_play || room==rm_talk || room==rm_food || room==rm_exploring)){
+
+    room_goto(Start_Rooms);
+
+}
+
 </string>
           </argument>
         </arguments>
@@ -154,12 +202,15 @@ if (flag==true){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(100,100,"The counter is "+string(statCounter));
-draw_text(100,200,"Strength : "+string(strength));
-draw_text(100,220,"Smarts : "+string(smarts));
-draw_text(100,240,"Good Looking : "+string(goodLooking));
-draw_text(100,260,"Magic : "+string(magic));
-draw_text(100,280,"Index : "+string(hatchindex));
+            <string>/*
+draw_text_transformed(32,100,"The counter is "+string(statCounter),0.5,0.5,0);
+draw_text_transformed(32,200,"Strength : "+string(strength),0.5,0.5,0);
+draw_text_transformed(32,220,"Smarts : "+string(smarts),0.5,0.5,0);
+draw_text_transformed(32,240,"Good Looking : "+string(goodLooking),0.5,0.5,0);
+draw_text_transformed(32,260,"Magic : "+string(magic),0.5,0.5,0);
+draw_text_transformed(32,280,"Index : "+string(hatchindex),0.5,0.5,0);
+draw_set_font(Font0);
+*/
 </string>
           </argument>
         </arguments>

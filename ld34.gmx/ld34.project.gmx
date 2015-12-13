@@ -4,48 +4,79 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound0</sound>
+  </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_egg1</sprite>
-    <sprite>sprites\spr_egg2</sprite>
-    <sprite>sprites\spr_egg3</sprite>
-    <sprite>sprites\spr_egg4</sprite>
-    <sprite>sprites\spr_egg5</sprite>
-    <sprite>sprites\spr_egg6</sprite>
-    <sprite>sprites\spr_egg7</sprite>
-    <sprite>sprites\spr_egg8</sprite>
-    <sprite>sprites\spr_Play</sprite>
-    <sprite>sprites\spr_Food</sprite>
-    <sprite>sprites\spr_Talk</sprite>
-    <sprite>sprites\spr_Explore</sprite>
     <sprite>sprites\spr_UI</sprite>
-    <sprite>sprites\spr_strength</sprite>
-    <sprite>sprites\spr_smarts</sprite>
-    <sprite>sprites\spr_goodLooking</sprite>
-    <sprite>sprites\spr_magic</sprite>
-    <sprites name="explore">
+    <sprites name="eggs">
+      <sprite>sprites\spr_egg7</sprite>
+      <sprite>sprites\spr_egg1</sprite>
+      <sprite>sprites\spr_egg2</sprite>
+      <sprite>sprites\spr_egg3</sprite>
+      <sprite>sprites\spr_egg4</sprite>
+      <sprite>sprites\spr_egg5</sprite>
+      <sprite>sprites\spr_egg8</sprite>
+      <sprite>sprites\spr_egg6</sprite>
+    </sprites>
+    <sprites name="core_companions">
+      <sprite>sprites\spr_001</sprite>
+      <sprite>sprites\spr_002</sprite>
+      <sprite>sprites\spr_003</sprite>
+      <sprite>sprites\spr_010</sprite>
+      <sprite>sprites\spr_012</sprite>
+      <sprite>sprites\spr_013</sprite>
+      <sprite>sprites\spr_020</sprite>
+      <sprite>sprites\spr_021</sprite>
+      <sprite>sprites\spr_023</sprite>
+      <sprite>sprites\spr_030</sprite>
+      <sprite>sprites\spr_031</sprite>
+      <sprite>sprites\spr_032</sprite>
+    </sprites>
+    <sprites name="cat_buttons">
+      <sprite>sprites\spr_Play</sprite>
+      <sprite>sprites\spr_Food</sprite>
+      <sprite>sprites\spr_Talk</sprite>
+      <sprite>sprites\spr_Explore</sprite>
+    </sprites>
+    <sprites name="misc_buttons">
+      <sprite>sprites\spr_back</sprite>
+      <sprite>sprites\spr_quit</sprite>
+      <sprite>sprites\spr_startover</sprite>
+      <sprite>sprites\spr_next</sprite>
+      <sprite>sprites\spr_prev</sprite>
+    </sprites>
+    <sprites name="explore_buttons">
       <sprite>sprites\spr_campfire</sprite>
       <sprite>sprites\spr_hills</sprite>
       <sprite>sprites\spr_plains</sprite>
       <sprite>sprites\spr_shore</sprite>
+      <sprite>sprites\spr_ocean</sprite>
     </sprites>
-    <sprites name="feed">
+    <sprites name="feed_buttons">
       <sprite>sprites\spr_berries</sprite>
       <sprite>sprites\spr_candy</sprite>
       <sprite>sprites\spr_noodles</sprite>
       <sprite>sprites\spr_steak</sprite>
     </sprites>
-    <sprites name="play">
+    <sprites name="play_buttons">
       <sprite>sprites\spr_hope</sprite>
       <sprite>sprites\spr_makeover</sprite>
       <sprite>sprites\spr_read</sprite>
       <sprite>sprites\spr_workout</sprite>
     </sprites>
-    <sprites name="talk">
+    <sprites name="talk_buttons">
       <sprite>sprites\spr_joke</sprite>
       <sprite>sprites\spr_peptalk</sprite>
       <sprite>sprites\spr_riddle</sprite>
       <sprite>sprites\spr_secret</sprite>
+    </sprites>
+    <sprites name="explore_images">
+      <sprite>sprites\spr_campfire_image</sprite>
+      <sprite>sprites\spr_hills_image</sprite>
+      <sprite>sprites\spr_plains_image</sprite>
+      <sprite>sprites\spr_shore_image</sprite>
+      <sprite>sprites\spr_ocean_image</sprite>
     </sprites>
     <sprites name="food_images">
       <sprite>sprites\spr_berries_image</sprite>
@@ -59,37 +90,43 @@
       <sprite>sprites\spr_makeup_image</sprite>
       <sprite>sprites\spr_hope_image</sprite>
     </sprites>
-    <sprites name="explore_images">
-      <sprite>sprites\spr_campfire_image</sprite>
-      <sprite>sprites\spr_hills_image</sprite>
-      <sprite>sprites\spr_plains_image</sprite>
-      <sprite>sprites\spr_shore_image</sprite>
-    </sprites>
     <sprites name="talk_images">
       <sprite>sprites\spr_joke_image</sprite>
       <sprite>sprites\spr_peptalk_image</sprite>
       <sprite>sprites\spr_riddle_image</sprite>
       <sprite>sprites\spr_secret_image</sprite>
     </sprites>
+    <sprites name="water_companions">
+      <sprite>sprites\spr_120</sprite>
+      <sprite>sprites\spr_130</sprite>
+      <sprite>sprites\spr_110</sprite>
+      <sprite>sprites\spr_100</sprite>
+    </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\Starry_Night</background>
+    <background>background\Cloudy_sky</background>
+    <background>background\City_Clouds</background>
+    <background>background\Kawai_Clouds</background>
+    <background>background\Bubble_clouds</background>
+    <background>background\TitleScreen</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\hatchingEgg.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\Font0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_companion</object>
-    <object>objects\obj_play</object>
-    <object>objects\obj_talk</object>
-    <object>objects\obj_food</object>
-    <object>objects\obj_exploring</object>
     <object>objects\obj_Control</object>
-    <object>objects\obj_ui</object>
     <objects name="explore">
       <object>objects\obj_campfire</object>
       <object>objects\obj_hills</object>
       <object>objects\obj_plains</object>
       <object>objects\obj_shore</object>
+      <object>objects\obj_ocean</object>
     </objects>
     <objects name="feed">
       <object>objects\obj_berries</object>
@@ -111,10 +148,26 @@
     </objects>
     <objects name="parameter">
       <object>objects\param_Buttons</object>
-      <object>objects\param_StrengthCounters</object>
-      <object>objects\param_GoodLookingCounters</object>
-      <object>objects\param_MagicCounters</object>
-      <object>objects\param_SmartsCounters</object>
+      <object>objects\param_dbclick</object>
+    </objects>
+    <objects name="UI elements">
+      <object>objects\obj_ui</object>
+      <object>objects\obj_actualString</object>
+      <object>objects\obj_uitext</object>
+      <object>objects\obj_creaturetext</object>
+    </objects>
+    <objects name="roomSetters">
+      <object>objects\obj_play</object>
+      <object>objects\obj_talk</object>
+      <object>objects\obj_food</object>
+      <object>objects\obj_exploring</object>
+    </objects>
+    <objects name="misc_buttons">
+      <object>objects\obj_startover</object>
+      <object>objects\obj_goback</object>
+      <object>objects\obj_quit</object>
+      <object>objects\obj_next</object>
+      <object>objects\obj_prev</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -124,6 +177,7 @@
     <room>rooms\rm_food</room>
     <room>rooms\rm_exploring</room>
     <room>rooms\rm_hatchery</room>
+    <room>rooms\Title_Screen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -65,6 +65,7 @@ switch (i){
         break;
     
 }
+spriteindex = sprite_index;
 </string>
           </argument>
         </arguments>
@@ -90,12 +91,15 @@ switch (i){
             <string>//Is run only when the egg is still an egg
 if (obj_Control.statCounter&lt;5){
     step++;
-    if (step%30==0 &amp;&amp; flag==true){
+    if (step%30==0 &amp;&amp; flag==true &amp;&amp; sprite_index==spriteindex){
         image_xscale=-1;
         flag=false;
-    }else if(step%30==0 &amp;&amp; flag==false){
+    }else if(step%30==0 &amp;&amp; flag==false &amp;&amp; sprite_index==spriteindex){
         image_xscale=1;
         flag=true;
+    }
+    if (sprite_index!=spriteindex){
+        image_xscale=1;
     }
 }
 </string>
