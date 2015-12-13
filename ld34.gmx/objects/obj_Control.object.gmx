@@ -180,20 +180,6 @@ if (statCounter&gt;5 &amp;&amp; (room==rm_play || room==rm_talk || room==rm_food
 
 }
 
-if (room==rm_play){
-
-
-}else if (room==rm_talk){
-
-
-}else if (room==rm_food){
-
-
-}else if (room==rm_exploring &amp;&amp; waterunlock){
-
-
-
-}
 </string>
           </argument>
         </arguments>

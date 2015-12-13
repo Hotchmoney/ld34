@@ -69,9 +69,6 @@ switch (maxint){
         toReturn+=30;
         break;
 }
-show_debug_message(string(maxint));
-show_debug_message(string(secondmax));
-show_debug_message(string(toReturn));
 
 return toReturn;
     
