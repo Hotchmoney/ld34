@@ -136,6 +136,7 @@
       <object>objects\obj_ui</object>
       <object>objects\obj_actualString</object>
       <object>objects\obj_uitext</object>
+      <object>objects\obj_creaturetext</object>
     </objects>
   </objects>
   <rooms name="rooms">
