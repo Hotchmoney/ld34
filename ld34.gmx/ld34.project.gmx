@@ -33,6 +33,8 @@
       <sprite>sprites\spr_back</sprite>
       <sprite>sprites\spr_quit</sprite>
       <sprite>sprites\spr_startover</sprite>
+      <sprite>sprites\spr_next</sprite>
+      <sprite>sprites\spr_prev</sprite>
     </sprites>
     <sprites name="explore_buttons">
       <sprite>sprites\spr_campfire</sprite>
@@ -145,10 +147,12 @@
       <object>objects\obj_food</object>
       <object>objects\obj_exploring</object>
     </objects>
-    <objects name="startover and reset buttons">
+    <objects name="misc_buttons">
       <object>objects\obj_startover</object>
       <object>objects\obj_goback</object>
       <object>objects\obj_quit</object>
+      <object>objects\obj_next</object>
+      <object>objects\obj_prev</object>
     </objects>
   </objects>
   <rooms name="rooms">
