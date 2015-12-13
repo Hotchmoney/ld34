@@ -109,6 +109,7 @@
     <background>background\City_Clouds</background>
     <background>background\Kawai_Clouds</background>
     <background>background\Bubble_clouds</background>
+    <background>background\TitleScreen</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -176,6 +177,7 @@
     <room>rooms\rm_food</room>
     <room>rooms\rm_exploring</room>
     <room>rooms\rm_hatchery</room>
+    <room>rooms\Title_Screen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
