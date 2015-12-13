@@ -51,16 +51,16 @@
             <string>switch (obj_Control.hatchindex){
 
     case 0:
-        draw_text(32,416,"Don’t let her cute looks fool you! This powerful #creature is loyal and ferocious.");
+        draw_text(32,416,"Griz: Don’t let her cute looks fool you! This #powerful creature is loyal and ferocious.");
         break;
     case 1:
-        draw_text(32,416,"This feathered friend doesn’t like to sing, but he’s #an excellent debater!");
+        draw_text(32,416,"Birdbrain: This feathered friend doesn’t like to #sing, but he’s an excellent debater!");
         break;
     case 2:
-        draw_text(32,416,"When you’re feeling blue, Kawaile always has a #mighty funny joke ready!");
+        draw_text(32,416,"Kawaile: When you’re feeling blue, Kawaile #always has a mighty funny joke ready!");
         break;
     case 3:
-        draw_text(32,416,"No one knows how this rat learned magic, but #you gotta respect her, right?");
+        draw_text(32,416,"Moriarty: No one knows how this rat learned #magic, but you gotta respect her, right?");
         break;
 }
 draw_set_font(Font0);
