@@ -56,7 +56,7 @@
     <instance objName="obj_makeover" x="608" y="448" name="inst_1C3C8122" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_workout" x="608" y="544" name="inst_D150B4E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ui" x="400" y="492" name="inst_C7FF2093" locked="0" code="" scaleX="1" scaleY="0.860000014305115" colour="4294967295" rotation="0"/>
-    <instance objName="obj_goback" x="640" y="320" name="inst_83609A48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_goback" x="128" y="64" name="inst_83609A48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
