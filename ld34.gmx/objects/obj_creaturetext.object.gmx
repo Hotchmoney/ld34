@@ -79,7 +79,7 @@ switch (obj_Control.hatchindex){
         break;
     case 023:
         draw_text(32,416,"Kawaile: When you're feeling blue, Kawaile #always has a mighty funny joke ready! #You've now unlocked the Ocean!");
-        obj_Control.waterunlocked=true;
+        obj_Control.waterunlock=true;
         break;
     case 030:
     
@@ -91,16 +91,16 @@ switch (obj_Control.hatchindex){
     
         break;
     case 100:
-    
+        draw_text(32,416,"Bernardo: This tough guy is always ready to #rumble. Watch out for his teeth!");
         break;
     case 110:
-    
+        draw_text(32,416,"Harumphy (turtle): It's not easy being the #wisest turtle in the sea, but he bears it with grace.");
         break;
     case 120:
-    
+        draw_text(32,416,"Annulara (octopus): She's fashionable and #friendly, but she won't let you borrow her jewellery!"); 
         break;
     case 130:
-    
+        draw_text(32,416,"Bubbles (mermaid): She's sweet, smart, #funny, and an amazing dancer to boot!");
         break;
 }
 

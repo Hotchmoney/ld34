@@ -32,7 +32,7 @@ for(j=0;j<4;j++){
 
 if (waterflag==true){
     toReturn+=100;
-    toReturn+=maxint;
+    toReturn+=(maxint*10);
     return toReturn;
 }else{
     toReturn=0;

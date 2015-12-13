@@ -60,52 +60,52 @@ hatchindex=0;
             <kind>1</kind>
             <string>switch (hatchindex){
     case 1:
-        
+        obj_companion.sprite_index=spr_001;
         break;
     case 2:
         obj_companion.sprite_index=spr_002;
         break;
     case 3:
-    
+        obj_companion.sprite_index=spr_003;
         break;
     case 10:
-    
+        obj_companion.sprite_index=spr_010;
         break;
     case 12:
-    
+        obj_companion.sprite_index=spr_012;
         break;
     case 13:
         obj_companion.sprite_index=spr_013;
         break;
     case 20:
-        
+        obj_companion.sprite_index=spr_020;
         break;
     case 21:
-    
+        obj_companion.sprite_index=spr_021;
         break;
     case 23:
         obj_companion.sprite_index=spr_023;
         break;
     case 30:
-    
+        obj_companion.sprite_index=spr_030;
         break;
     case 31:
         obj_companion.sprite_index=spr_031;
         break;
     case 32:
-    
+        obj_companion.sprite_index=spr_032;
         break;
     case 100:
-    
+        obj_companion.sprite_index=spr_100;
         break;
     case 110:
-    
+        obj_companion.sprite_index=spr_110;
         break;
     case 120:
-    
+        obj_companion.sprite_index=spr_120;
         break;
     case 130:
-        
+        obj_companion.sprite_index=spr_130;
         break;
 }//sprites
 </string>
