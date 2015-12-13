@@ -32,7 +32,7 @@
     text=instance_create(400,492,obj_uitext);
     text.depth=-1;
     text.image_yscale=0.86;
-    text.textstring="You and the egg work up a sweat as you hike the rolling hills....";
+    text.textstring="You and the egg work up a sweat as you hike #the rolling hills....";
 }else{
     obj_companion.sprite_index=spr_hills_image;
     dbclick+=20;    

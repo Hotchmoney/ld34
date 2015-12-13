@@ -32,7 +32,7 @@
     text=instance_create(400,492,obj_uitext);
     text.depth=-1;
     text.image_yscale=0.86;
-    text.textstring="You give the egg an inspiring speech, and it feels like it can do anything....";
+    text.textstring="You give the egg an inspiring speech, and it feels #like it can do anything....";
 }else{
     obj_companion.sprite_index=spr_peptalk_image;
     dbclick+=20;    

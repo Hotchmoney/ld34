@@ -32,7 +32,7 @@
     text=instance_create(400,492,obj_uitext);
     text.depth=-1;
     text.image_yscale=0.86;
-    text.textstring = "The foam splashes on you and the egg as you examine tide pools....";
+    text.textstring = "The foam splashes on you and the egg as you #examine tide pools....";
 }else{
     obj_companion.sprite_index=spr_shore_image;
     dbclick+=20;    
