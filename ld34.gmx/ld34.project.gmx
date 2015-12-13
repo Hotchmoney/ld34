@@ -96,10 +96,6 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_companion</object>
-    <object>objects\obj_play</object>
-    <object>objects\obj_talk</object>
-    <object>objects\obj_food</object>
-    <object>objects\obj_exploring</object>
     <object>objects\obj_Control</object>
     <objects name="explore">
       <object>objects\obj_campfire</object>
@@ -129,14 +125,22 @@
       <object>objects\param_Buttons</object>
       <object>objects\param_dbclick</object>
     </objects>
-    <object>objects\obj_startover</object>
-    <object>objects\obj_goback</object>
-    <object>objects\obj_quit</object>
     <objects name="UI elements">
       <object>objects\obj_ui</object>
       <object>objects\obj_actualString</object>
       <object>objects\obj_uitext</object>
       <object>objects\obj_creaturetext</object>
+    </objects>
+    <objects name="roomSetters">
+      <object>objects\obj_play</object>
+      <object>objects\obj_talk</object>
+      <object>objects\obj_food</object>
+      <object>objects\obj_exploring</object>
+    </objects>
+    <objects name="startover and reset buttons">
+      <object>objects\obj_startover</object>
+      <object>objects\obj_goback</object>
+      <object>objects\obj_quit</object>
     </objects>
   </objects>
   <rooms name="rooms">

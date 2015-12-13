@@ -132,6 +132,14 @@ if (flag==true){
     alarm[0]=30;
     flag=false;
 }
+
+//bug checking
+
+if (statCounter&gt;5 &amp;&amp; (room==rm_play || room==rm_talk || room==rm_food || room==rm_exploring)){
+
+    room_goto(Start_Rooms);
+
+}
 </string>
           </argument>
         </arguments>
