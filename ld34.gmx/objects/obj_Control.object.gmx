@@ -123,7 +123,7 @@ room_goto(rm_hatchery);
             <kind>1</kind>
             <string>
 if (statCounter==6 &amp;&amp; flag1==false &amp;&amp; room==Start_Rooms){
-    hatchindex = hatchingEgg(strength,smarts,goodLooking,magic);
+    hatchindex = hatchingEgg(strength,smarts,goodLooking,magic,iswater);
     flag=true;
     flag1=true;
 }//when stat counter reaches 5, we call hatching egg to find out max value and then we do a switch to switch sprite index.
