@@ -59,52 +59,52 @@ hatchindex=0;
           <argument>
             <kind>1</kind>
             <string>switch (hatchindex){
-    case 001:
+    case 1:
         
         break;
-    case 002:
+    case 2:
+        obj_companion.sprite_index=spr_002;
+        break;
+    case 3:
     
         break;
-    case 003:
+    case 10:
     
         break;
-    case 010:
+    case 12:
     
         break;
-    case 012:
+    case 13:
+        obj_companion.sprite_index=spr_013;
+        break;
+    case 20:
+        
+        break;
+    case 21:
     
         break;
-    case 013:
+    case 23:
+        obj_companion.sprite_index=spr_023;
+        break;
+    case 30:
     
         break;
-    case 020:
-    
+    case 31:
+        obj_companion.sprite_index=spr_031;
         break;
-    case 021:
-    
-        break;
-    case 023:
-    
-        break;
-    case 030:
-    
-        break;
-    case 031:
-    
-        break;
-    case 032:
+    case 32:
     
         break;
     case 100:
     
         break;
-    case 101:
+    case 110:
     
         break;
-    case 102:
+    case 120:
     
         break;
-    case 103:
+    case 130:
         
         break;
 }//sprites
@@ -189,7 +189,7 @@ if (room==rm_play){
 }else if (room==rm_food){
 
 
-}else if (room==rm_exploring &amp;&amp; waterunlocked){
+}else if (room==rm_exploring &amp;&amp; waterunlock){
 
 
 

@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>creature=0;
+str="";
 </string>
           </argument>
         </arguments>
@@ -48,7 +49,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>switch (obj_Control.heapindex){
+            <string>
+switch (obj_Control.hatchindex){
 
     case 001:
         
@@ -91,16 +93,17 @@
     case 100:
     
         break;
-    case 101:
+    case 110:
     
         break;
-    case 102:
+    case 120:
     
         break;
-    case 103:
+    case 130:
     
         break;
 }
+
 draw_set_font(Font0);
 </string>
           </argument>
