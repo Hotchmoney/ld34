@@ -18,10 +18,10 @@
       <sprite>sprites\spr_egg6</sprite>
     </sprites>
     <sprites name="core_companions">
-      <sprite>sprites\spr_goodLooking</sprite>
-      <sprite>sprites\spr_magic</sprite>
-      <sprite>sprites\spr_smarts</sprite>
-      <sprite>sprites\spr_strength</sprite>
+      <sprite>sprites\spr_023</sprite>
+      <sprite>sprites\spr_031</sprite>
+      <sprite>sprites\spr_013</sprite>
+      <sprite>sprites\spr_002</sprite>
     </sprites>
     <sprites name="cat_buttons">
       <sprite>sprites\spr_Play</sprite>
