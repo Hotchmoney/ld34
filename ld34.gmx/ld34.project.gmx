@@ -18,6 +18,8 @@
     <sprite>sprites\spr_Food</sprite>
     <sprite>sprites\spr_Talk</sprite>
     <sprite>sprites\spr_Explore</sprite>
+    <sprite>sprites\spr_startover</sprite>
+    <sprite>sprites\spr_back</sprite>
     <sprite>sprites\spr_UI</sprite>
     <sprite>sprites\spr_strength</sprite>
     <sprite>sprites\spr_smarts</sprite>
@@ -77,7 +79,6 @@
   <scripts name="scripts">
     <script>scripts\hatchingEgg.gml</script>
   </scripts>
-  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\obj_companion</object>
     <object>objects\obj_play</object>
@@ -115,6 +116,8 @@
       <object>objects\param_Buttons</object>
       <object>objects\param_dbclick</object>
     </objects>
+    <object>objects\obj_startover</object>
+    <object>objects\obj_goback</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start_Rooms</room>
