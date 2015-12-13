@@ -59,40 +59,40 @@ hatchindex=0;
           <argument>
             <kind>1</kind>
             <string>switch (hatchindex){
-    case 001:
+    case 1:
         
         break;
-    case 002:
+    case 2:
+        obj_companion.sprite_index=spr_strength;
+        break;
+    case 3:
     
         break;
-    case 003:
+    case 10:
     
         break;
-    case 010:
+    case 12:
     
         break;
-    case 012:
+    case 13:
     
         break;
-    case 013:
+    case 20:
+        
+        break;
+    case 21:
     
         break;
-    case 020:
+    case 23:
     
         break;
-    case 021:
+    case 30:
     
         break;
-    case 023:
+    case 31:
     
         break;
-    case 030:
-    
-        break;
-    case 031:
-    
-        break;
-    case 032:
+    case 32:
     
         break;
     case 100:

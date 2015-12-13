@@ -3,23 +3,29 @@ stats[1]=argument1;
 stats[2]=argument2;
 stats[3]=argument3;
 var waterflag=argument4;
-var i;
+var i,j;
 var maxint;
 var secondmax;
 var toReturn;
 toReturn=0;
 maxint=0;
+secondmax=1;
+
+if (stats[maxint]<stats[secondmax]){
+    maxint=1;
+    secondmax=0;
+}
 
 for (i=0;i<4;i++){
     if (stats[maxint]<stats[i]){
-        i=maxint;
+        maxint=i;
     }
 }//end for loop (have found the maximum int)
-secondmax=0;
-for(i=0;i<4;i++){
-    if (maxint!=i){
-        if (stats[secondmax]<stats[i]){
-            secondmax=i;
+
+for(j=0;j<4;j++){
+    if (maxint!=j){
+        if (stats[secondmax]<stats[j]){
+            secondmax=j;
         }
     }
 }//end for loop (have found the second max int)
@@ -29,27 +35,11 @@ if (waterflag==true){
     toReturn+=maxint;
     return toReturn;
 }else{
-    toreturn=0;
+    toReturn=0;
 }//have sent waterflag
 
 switch (secondmax){
 
-    case 0:
-        toReturn+=0;
-        break;
-    case 1:
-        toReturn+=10;
-        break;
-    case 2:
-        toReturn+=20;
-        break;
-    case 3:
-        toReturn+=30;
-        break;
-
-}
-
-switch (maxint){
     case 0:
         toReturn+=0;
         break;
@@ -61,6 +51,22 @@ switch (maxint){
         break;
     case 3:
         toReturn+=3;
+        break;
+
+}
+
+switch (maxint){
+    case 0:
+        toReturn+=0;
+        break;
+    case 1:
+        toReturn+=10;
+        break;
+    case 2:
+        toReturn+=20;
+        break;
+    case 3:
+        toReturn+=30;
         break;
 }
 show_debug_message(string(maxint));
