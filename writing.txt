@@ -10,8 +10,8 @@ Explore
 * Plains: Your egg watches the sun set over the horizon with an inscrutable expression.
 * Shore: The foam splashes on you and the egg as you examine tide pools.
 Food
-* Berries: You and the egg buy some berries from the farmer’s market. Yum!
-* Candy: The egg gobbles up all the candy. I hope it doesn’t spoil it’s appetite!
+* Berries: You and the egg buy some berries from the farmer's market. Yum!
+* Candy: The egg gobbles up all the candy. I hope it doesn't spoil it’s appetite!
 * Noodles: Sluuuuurp! The egg drinks down every last drop of broth.
 * Steak: The egg tears into the huge slab of meat. It must have been ravenous.
 Talk
@@ -20,11 +20,11 @@ Talk
 * Riddle: You perplex the egg with a brain-teaser. It furrows its brow.
 * Secret: You tell the egg a scandalous truth. It can’t believe what it just heard.
 Creatures
-Birdbrain: This feathered friend doesn’t like to sing, but he’s an excellent debater!
+Birdbrain: This feathered friend doesn't like to sing, but he's an excellent debater!
 Griz: Don’t let her cute looks fool you! This powerful creature is loyal and ferocious.
-Kawaile: When you’re feeling blue, Kawaile always has a mighty funny joke ready!
+Kawaile: When you're feeling blue, Kawaile always has a mighty funny joke ready!
 Moriarty: No one knows how this rat learned magic, but you gotta respect her, right?
 Bernardo (shark): This tough guy is always ready to rumble. Watch out for his teeth!
-Annulara (octopus): She’s fashionable and friendly, but she won’t let you borrow her jewellery!
-Harumphy (turtle): It’s not easy being the wisest turtle in the sea, but he bears it with grace.
-Bubbles (mermaid): She’s sweet, smart, funny, and an amazing dancer to boot!
+Annulara (octopus): She's fashionable and friendly, but she won't let you borrow her jewellery!
+Harumphy (turtle): It's not easy being the wisest turtle in the sea, but he bears it with grace.
+Bubbles (mermaid): She's sweet, smart, funny, and an amazing dancer to boot!
