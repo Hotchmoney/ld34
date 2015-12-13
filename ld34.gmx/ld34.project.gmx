@@ -79,6 +79,9 @@
   <scripts name="scripts">
     <script>scripts\hatchingEgg.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\Font0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_companion</object>
     <object>objects\obj_play</object>
@@ -86,8 +89,6 @@
     <object>objects\obj_food</object>
     <object>objects\obj_exploring</object>
     <object>objects\obj_Control</object>
-    <object>objects\obj_ui</object>
-    <object>objects\obj_uitext</object>
     <objects name="explore">
       <object>objects\obj_campfire</object>
       <object>objects\obj_hills</object>
@@ -118,6 +119,11 @@
     </objects>
     <object>objects\obj_startover</object>
     <object>objects\obj_goback</object>
+    <objects name="UI elements">
+      <object>objects\obj_ui</object>
+      <object>objects\obj_actualString</object>
+      <object>objects\obj_uitext</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start_Rooms</room>
