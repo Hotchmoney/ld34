@@ -202,13 +202,15 @@ if (statCounter&gt;5 &amp;&amp; (room==rm_play || room==rm_talk || room==rm_food
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text_transformed(32,100,"The counter is "+string(statCounter),0.5,0.5,0);
+            <string>/*
+draw_text_transformed(32,100,"The counter is "+string(statCounter),0.5,0.5,0);
 draw_text_transformed(32,200,"Strength : "+string(strength),0.5,0.5,0);
 draw_text_transformed(32,220,"Smarts : "+string(smarts),0.5,0.5,0);
 draw_text_transformed(32,240,"Good Looking : "+string(goodLooking),0.5,0.5,0);
 draw_text_transformed(32,260,"Magic : "+string(magic),0.5,0.5,0);
 draw_text_transformed(32,280,"Index : "+string(hatchindex),0.5,0.5,0);
 draw_set_font(Font0);
+*/
 </string>
           </argument>
         </arguments>

@@ -53,42 +53,42 @@ str="";
 switch (obj_Control.hatchindex){
 
     case 001:
-        
+        draw_text(32,416,"Crackle: Crackle is always in a bad mood, #so stay away when you hear thunder!");
         break;
     case 002:
         draw_text(32,416,"Griz: Don't let her cute looks fool you! This #powerful creature is loyal and ferocious.");
         break;
         
     case 003:
-    
+        draw_text(32,416,"The Old Lord: This ancient creature walks #with the weight of its potent spells and charms.");
         break;
     case 010:
-    
+        draw_text(32,416,"Skuffle: This noble friend never forgets #your birthday!");
         break;
     case 012:
-    
+        draw_text(32,416,"Chiara: This is the skull of an ancient #emperess! Weird!");
         break;
     case 013:
         draw_text(32,416,"Birdbrain: This feathered friend doesn't like to #sing, but he's an excellent debater!");
         break;
     case 020:
-    
+        draw_text(32,416,"Hunkle: He's easy on the eyes, but kind of boring #to hang out with!");
         break;
     case 021:
-    
+        draw_text(32,416,"Yonnie: This queen bee's new album, is generating #a lot of buzz.");
         break;
     case 023:
-        draw_text(32,416,"Kawaile: When you're feeling blue, Kawaile #always has a mighty funny joke ready! #You've now unlocked the Ocean!");
+        draw_text(32,416,"Kawaile: When you're feeling blue, Kawaile #always has a mighty funny joke ready! #You've now unlocked the Ocean explore!");
         obj_Control.waterunlock=true;
         break;
     case 030:
-    
+        draw_text(32,416,"Isaac: This mysterious pyramid is strong #of will and always looking behind it's #back.");
         break;
     case 031:
         draw_text(32,416,"Moriarty: No one knows how this rat learned #magic, but you gotta respect her, right?");
         break;
     case 032:
-    
+        draw_text(32,416,"Fiona: This pheonix is 300 but she's never #had a stitch of work done!");
         break;
     case 100:
         draw_text(32,416,"Bernardo: This tough guy is always ready to #rumble. Watch out for his teeth!");

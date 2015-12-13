@@ -49,6 +49,11 @@
           <argument>
             <kind>1</kind>
             <string>nextpage=true;
+instance_deactivate_object(obj_campfire);
+instance_deactivate_object(obj_hills);
+instance_deactivate_object(obj_plains);
+instance_deactivate_object(obj_shore);
+instance_activate_object(obj_ocean);
 obj_ui.depth=-5;
 obj_next.depth=1000;
 obj_prev.depth=-6;

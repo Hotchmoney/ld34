@@ -51,6 +51,7 @@ flag=false;
             <kind>1</kind>
             <string>if(textstring!="" &amp;&amp; flag==false){
     actualString=instance_create(obj_uitext.x,obj_uitext.y,obj_actualString);
+    actualString.depth=-1001;
     actualString.str=string(textstring);
     flag=true;
 }

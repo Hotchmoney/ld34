@@ -27,12 +27,12 @@
             <kind>1</kind>
             <string>if(dbclick&gt;0){
     //dbclicked
-    obj_Control.goodLookin+=1;
+    obj_Control.goodLooking+=1;
     obj_Control.strength+=1;
     obj_Control.iswater=true;
     obj_Control.statCounter+=1;
     text=instance_create(400,492,obj_uitext);
-    text.depth=-1;
+    text.depth=-1000;
     text.image_yscale=0.86;
     text.textstring = "The foam splashes on you and the egg as you #examine tide pools....";
 }else{
