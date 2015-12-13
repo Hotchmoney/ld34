@@ -32,7 +32,7 @@
     text=instance_create(400,492,obj_uitext);
     text.depth=-1;
     text.image_yscale=0.86;
-    text.textstring="You and the egg buy some berries from the #farmer’s market. Yum!";
+    text.textstring="You and the egg buy some berries from the #farmers' market. Yum!";
 }else{
     obj_companion.sprite_index=spr_berries_image;
     dbclick+=20;    
