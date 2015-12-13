@@ -13,15 +13,7 @@ carter's thing
 
 SUNDAY MORNING GOALS
 
-2. water sprites done
-
 3. implement water creatures/actions
-
-*implement backgrounds
-
-*fix text wrapping
-
-*add Back button & restore quit/restart buttons
 
 1. creature text
 
