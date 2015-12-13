@@ -98,6 +98,9 @@
   <backgrounds name="background">
     <background>background\Starry_Night</background>
     <background>background\Cloudy_sky</background>
+    <background>background\City_Clouds</background>
+    <background>background\Kawai_Clouds</background>
+    <background>background\Bubble_clouds</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
