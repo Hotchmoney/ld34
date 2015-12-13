@@ -56,6 +56,7 @@
     <instance objName="obj_steak" x="608" y="544" name="inst_B6A83279" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_berries" x="224" y="448" name="inst_E78D15A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_candy" x="608" y="448" name="inst_00E9C046" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_goback" x="640" y="320" name="inst_5FF4B30A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

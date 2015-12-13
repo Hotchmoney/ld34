@@ -56,6 +56,7 @@
     <instance objName="obj_peptalk" x="608" y="448" name="inst_90E1DA81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_riddle" x="224" y="544" name="inst_DDA5A16C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_secret" x="608" y="544" name="inst_E8416305" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_goback" x="640" y="320" name="inst_09C45DF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
