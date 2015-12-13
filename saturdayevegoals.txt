@@ -1,20 +1,9 @@
 SATURDAY EVENING GOALS
 
-Make and implement backgrounds
-	implement
-
-Back button
-	did Quit/Restart
-
-Write + implement text
-	fix wrapping
-
 carter's thing
 
 SUNDAY MORNING GOALS
 
 3. implement water creatures/actions
-
-1. creature text
 
 4. multiple stat creatures
