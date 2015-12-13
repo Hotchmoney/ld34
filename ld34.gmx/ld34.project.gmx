@@ -39,6 +39,7 @@
       <sprite>sprites\spr_hills</sprite>
       <sprite>sprites\spr_plains</sprite>
       <sprite>sprites\spr_shore</sprite>
+      <sprite>sprites\spr_ocean</sprite>
     </sprites>
     <sprites name="feed_buttons">
       <sprite>sprites\spr_berries</sprite>
@@ -63,6 +64,7 @@
       <sprite>sprites\spr_hills_image</sprite>
       <sprite>sprites\spr_plains_image</sprite>
       <sprite>sprites\spr_shore_image</sprite>
+      <sprite>sprites\spr_ocean_image</sprite>
     </sprites>
     <sprites name="food_images">
       <sprite>sprites\spr_berries_image</sprite>
