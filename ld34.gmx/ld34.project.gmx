@@ -18,12 +18,18 @@
       <sprite>sprites\spr_egg6</sprite>
     </sprites>
     <sprites name="core_companions">
+      <sprite>sprites\spr_001</sprite>
       <sprite>sprites\spr_002</sprite>
+      <sprite>sprites\spr_003</sprite>
+      <sprite>sprites\spr_010</sprite>
+      <sprite>sprites\spr_012</sprite>
       <sprite>sprites\spr_013</sprite>
       <sprite>sprites\spr_020</sprite>
       <sprite>sprites\spr_021</sprite>
       <sprite>sprites\spr_023</sprite>
+      <sprite>sprites\spr_030</sprite>
       <sprite>sprites\spr_031</sprite>
+      <sprite>sprites\spr_032</sprite>
     </sprites>
     <sprites name="cat_buttons">
       <sprite>sprites\spr_Play</sprite>
@@ -89,10 +95,10 @@
       <sprite>sprites\spr_secret_image</sprite>
     </sprites>
     <sprites name="water_companions">
-      <sprite>sprites\spr_water_goodLooking</sprite>
-      <sprite>sprites\spr_water_magic</sprite>
-      <sprite>sprites\spr_water_smarts</sprite>
-      <sprite>sprites\spr_water_strength</sprite>
+      <sprite>sprites\spr_120</sprite>
+      <sprite>sprites\spr_130</sprite>
+      <sprite>sprites\spr_110</sprite>
+      <sprite>sprites\spr_100</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
