@@ -17,6 +17,12 @@
       <sprite>sprites\spr_egg8</sprite>
       <sprite>sprites\spr_egg6</sprite>
     </sprites>
+    <sprites name="water_companions">
+      <sprite>sprites\spr_water_goodlookin</sprite>
+      <sprite>sprites\spr_water_magic</sprite>
+      <sprite>sprites\spr_water_smarts</sprite>
+      <sprite>sprites\spr_water_strength</sprite>
+    </sprites>
     <sprites name="core_companions">
       <sprite>sprites\spr_goodLooking</sprite>
       <sprite>sprites\spr_magic</sprite>
