@@ -48,20 +48,57 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>switch (obj_Control.hatchindex){
+            <string>switch (obj_Control.heapindex){
 
-    case 0:
-        draw_text(32,416,"Griz: Don’t let her cute looks fool you! This #powerful creature is loyal and ferocious.");
+    case 001:
+        
         break;
-    case 1:
-        draw_text(32,416,"Birdbrain: This feathered friend doesn’t like to #sing, but he’s an excellent debater!");
+    case 002:
+        draw_text(32,416,"Griz: Don't let her cute looks fool you! This #powerful creature is loyal and ferocious.");
         break;
-    case 2:
-        draw_text(32,416,"Kawaile: When you’re feeling blue, Kawaile #always has a mighty funny joke ready! #You've now unlocked the Ocean!");
+        
+    case 003:
+    
+        break;
+    case 010:
+    
+        break;
+    case 012:
+    
+        break;
+    case 013:
+        draw_text(32,416,"Birdbrain: This feathered friend doesn't like to #sing, but he's an excellent debater!");
+        break;
+    case 020:
+    
+        break;
+    case 021:
+    
+        break;
+    case 023:
+        draw_text(32,416,"Kawaile: When you're feeling blue, Kawaile #always has a mighty funny joke ready! #You've now unlocked the Ocean!");
         obj_Control.waterunlocked=true;
         break;
-    case 3:
+    case 030:
+    
+        break;
+    case 031:
         draw_text(32,416,"Moriarty: No one knows how this rat learned #magic, but you gotta respect her, right?");
+        break;
+    case 032:
+    
+        break;
+    case 100:
+    
+        break;
+    case 101:
+    
+        break;
+    case 102:
+    
+        break;
+    case 103:
+    
         break;
 }
 draw_set_font(Font0);

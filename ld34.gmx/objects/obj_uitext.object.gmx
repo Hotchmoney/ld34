@@ -54,6 +54,7 @@ flag=false;
     actualString.str=string(textstring);
     flag=true;
 }
+
 </string>
           </argument>
         </arguments>

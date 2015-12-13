@@ -59,39 +59,55 @@ hatchindex=0;
           <argument>
             <kind>1</kind>
             <string>switch (hatchindex){
-    case 0:
-        obj_companion.sprite_index=spr_strength;
-        break;
-    
-    case 1:
-        obj_companion.sprite_index=spr_smarts;
-        break;
+    case 001:
         
-    case 2:
-        obj_companion.sprite_index=spr_goodLooking;
         break;
-        
-    case 3:
-        obj_companion.sprite_index=spr_magic;
-        break;
-        
-    case 4:
-        obj_companion.sprite_index=spr_water_strength;
-        break;
+    case 002:
     
-    case 5:
-        obj_companion.sprite_index=spr_water_smarts;
         break;
+    case 003:
     
-    case 6:
-        obj_companion.sprite_index=spr_water_goodLooking;
         break;
+    case 010:
     
-    case 7:
-        obj_companion.sprite_index=spr_water_magic;
         break;
+    case 012:
+    
+        break;
+    case 013:
+    
+        break;
+    case 020:
+    
+        break;
+    case 021:
+    
+        break;
+    case 023:
+    
+        break;
+    case 030:
+    
+        break;
+    case 031:
+    
+        break;
+    case 032:
+    
+        break;
+    case 100:
+    
+        break;
+    case 101:
+    
+        break;
+    case 102:
+    
+        break;
+    case 103:
         
-}   
+        break;
+}//sprites
 </string>
           </argument>
         </arguments>
