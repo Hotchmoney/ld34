@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>//stats block
+waterunlock=false;
 iswater=false;
 strength=0;
 smarts=0;
@@ -72,6 +73,22 @@ hatchindex=0;
         
     case 3:
         obj_companion.sprite_index=spr_magic;
+        break;
+        
+    case 4:
+        obj_companion.sprite_index=spr_water_strength;
+        break;
+    
+    case 5:
+        obj_companion.sprite_index=spr_water_smarts;
+        break;
+    
+    case 6:
+        obj_companion.sprite_index=spr_water_goodLooking;
+        break;
+    
+    case 7:
+        obj_companion.sprite_index=spr_water_magic;
         break;
         
 }   
@@ -144,6 +161,21 @@ if (statCounter&gt;=6 &amp;&amp; room!=rm_hatchery){
 if (statCounter&gt;5 &amp;&amp; (room==rm_play || room==rm_talk || room==rm_food || room==rm_exploring)){
 
     room_goto(Start_Rooms);
+
+}
+
+if (room==rm_play){
+
+
+}else if (room==rm_talk){
+
+
+}else if (room==rm_food){
+
+
+}else if (room==rm_exploring &amp;&amp; waterunlocked){
+
+
 
 }
 </string>

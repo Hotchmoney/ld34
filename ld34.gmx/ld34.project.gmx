@@ -83,7 +83,7 @@
       <sprite>sprites\spr_secret_image</sprite>
     </sprites>
     <sprites name="water_companions">
-      <sprite>sprites\spr_water_goodlookin</sprite>
+      <sprite>sprites\spr_water_goodLooking</sprite>
       <sprite>sprites\spr_water_magic</sprite>
       <sprite>sprites\spr_water_smarts</sprite>
       <sprite>sprites\spr_water_strength</sprite>

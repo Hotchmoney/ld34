@@ -25,7 +25,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>game_restart();
+            <string>obj_Control.iswater=false;
+obj_Control.strength=0;
+obj_Control.smarts=0;
+obj_Control.goodLooking=0;
+obj_Control.magic=0;
+obj_Control.statCounter=1;
+obj_Control.flag=false;
+obj_Control.flag1=false;
+obj_Control.hatchindex=0;
+with(obj_companion){instance_destroy()};
+room_goto(Start_Rooms);
 </string>
           </argument>
         </arguments>
