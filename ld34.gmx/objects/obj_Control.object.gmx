@@ -75,7 +75,7 @@ hatchindex=0;
     
         break;
     case 13:
-    
+        obj_companion.sprite_index=spr_smarts;
         break;
     case 20:
         
@@ -84,13 +84,13 @@ hatchindex=0;
     
         break;
     case 23:
-    
+        obj_companion.sprite_index=spr_goodLooking;
         break;
     case 30:
     
         break;
     case 31:
-    
+        obj_companion.sprite_index=spr_magic
         break;
     case 32:
     
@@ -98,13 +98,13 @@ hatchindex=0;
     case 100:
     
         break;
-    case 101:
+    case 110:
     
         break;
-    case 102:
+    case 120:
     
         break;
-    case 103:
+    case 130:
         
         break;
 }//sprites
