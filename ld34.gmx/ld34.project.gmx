@@ -20,6 +20,7 @@
     <sprite>sprites\spr_Explore</sprite>
     <sprite>sprites\spr_startover</sprite>
     <sprite>sprites\spr_back</sprite>
+    <sprite>sprites\spr_quit</sprite>
     <sprite>sprites\spr_UI</sprite>
     <sprite>sprites\spr_strength</sprite>
     <sprite>sprites\spr_smarts</sprite>
@@ -119,6 +120,7 @@
     </objects>
     <object>objects\obj_startover</object>
     <object>objects\obj_goback</object>
+    <object>objects\obj_quit</object>
     <objects name="UI elements">
       <object>objects\obj_ui</object>
       <object>objects\obj_actualString</object>
