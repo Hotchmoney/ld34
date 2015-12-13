@@ -3,7 +3,7 @@
   <spriteName>spr_prev</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>1000</depth>
+  <depth>0</depth>
   <persistent>0</persistent>
   <parentName>param_Buttons</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,17 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_next.nextpage=false;
-instance_activate_object(obj_campfire);
-instance_activate_object(obj_hills);
-instance_activate_object(obj_plains);
-instance_activate_object(obj_shore);
-instance_deactivate_object(obj_ocean);
-obj_ui.depth=1000;
-obj_next.depth=-6;
-obj_prev.depth=1000;
-obj_ocean.depth=1000;
-
+            <string>room_goto(rm_exploring);
 </string>
           </argument>
         </arguments>

@@ -26,9 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>if (room==rm_exploring &amp;&amp; obj_Control.waterunlock){
-    prev=instance_create(44,489,obj_prev);
     next=instance_create(766,489,obj_next);
-    ocean = instance_create(224,448,obj_ocean);
 }
 </string>
           </argument>

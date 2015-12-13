@@ -8,29 +8,6 @@
   <parentName>param_Buttons</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>nextpage=false;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="6" enumb="4">
       <action>
         <libid>1</libid>
@@ -48,16 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>nextpage=true;
-instance_deactivate_object(obj_campfire);
-instance_deactivate_object(obj_hills);
-instance_deactivate_object(obj_plains);
-instance_deactivate_object(obj_shore);
-instance_activate_object(obj_ocean);
-obj_ui.depth=-5;
-obj_next.depth=1000;
-obj_prev.depth=-6;
-obj_ocean.depth=-6;
+            <string>with(obj_campfire){instance_destroy()};
+with(obj_hills){instance_destroy()};
+with(obj_plains){instance_destroy()};
+with(obj_shore){instance_destroy()};
+
+instance_create(224,448,obj_ocean);
+instance_create(44,489,obj_prev);
+
+instance_destroy();
 </string>
           </argument>
         </arguments>
