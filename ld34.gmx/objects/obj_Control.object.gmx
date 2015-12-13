@@ -189,7 +189,7 @@ if (room==rm_play){
 }else if (room==rm_food){
 
 
-}else if (room==rm_exploring &amp;&amp; waterunlocked){
+}else if (room==rm_exploring &amp;&amp; waterunlock){
 
 
 

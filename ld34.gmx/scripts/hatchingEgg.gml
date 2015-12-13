@@ -7,7 +7,7 @@ var i;
 var maxint;
 var secondmax;
 var toReturn;
-
+toReturn=0;
 maxint=0;
 
 for (i=0;i<4;i++){
@@ -63,6 +63,9 @@ switch (maxint){
         toReturn+=3;
         break;
 }
+show_debug_message(string(maxint));
+show_debug_message(string(secondmax));
+show_debug_message(string(toReturn));
 
 return toReturn;
     
