@@ -75,7 +75,10 @@
       <sprite>sprites\spr_secret_image</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\Starry_Night</background>
+    <background>background\Cloudy_sky</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\hatchingEgg.gml</script>
