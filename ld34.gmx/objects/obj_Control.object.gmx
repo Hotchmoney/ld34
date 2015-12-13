@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>//stats block
-
+iswater=false;
 strength=0;
 smarts=0;
 goodLooking=0;
