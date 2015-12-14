@@ -54,6 +54,7 @@
       <sprite>sprites\spr_quit</sprite>
       <sprite>sprites\spr_startover</sprite>
       <sprite>sprites\spr_start</sprite>
+      <sprite>sprites\spr_howto</sprite>
       <sprite>sprites\spr_next</sprite>
       <sprite>sprites\spr_prev</sprite>
     </sprites>
@@ -190,6 +191,7 @@
       <object>objects\obj_backtoTitle</object>
       <object>objects\obj_start</object>
       <object>objects\obj_quit</object>
+      <object>objects\obj_howto</object>
       <object>objects\obj_next</object>
       <object>objects\obj_prev</object>
     </objects>
