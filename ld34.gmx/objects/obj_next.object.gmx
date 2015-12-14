@@ -30,10 +30,15 @@ with(obj_hills){instance_destroy()};
 with(obj_plains){instance_destroy()};
 with(obj_shore){instance_destroy()};
 
-if (obj_Control.waterunlock==true){
+if (obj_Control.waterunlock==true &amp;&amp; obj_Control.caveunlock==false){
     instance_create(224,448,obj_ocean);
-}
-if (obj_Control.caveunlock==true){
+    instance_create(544,448,obj_locked);
+    
+}else if (obj_Control.caveunlock==true &amp;&amp; obj_Control.waterunlock==false){
+    instance_create(224,448,obj_locked);
+    instance_create(544,448,obj_cave);
+}else if (obj_Control.waterunlock==true &amp;&amp; obj_Control.caveunlock==true){
+    instance_create(224,448,obj_ocean);
     instance_create(544,448,obj_cave);
 }
 instance_create(44,489,obj_prev);

@@ -103,6 +103,18 @@ switch (obj_Control.hatchindex){
     case 130:
         draw_text(32,416,"Bubbles (mermaid): She's sweet, smart, #funny, and an amazing dancer to boot!");
         break;
+    case 200:
+        draw_text(32,416,"Sentient Rock Mass: Awwwww! Look at it's #little face!");
+        break;
+    case 210:
+        draw_text(32,416,"Batrande: This techhead is super proud of #it's crowdfunded infrared goggles.");
+        break;
+    case 220:
+        draw_text(32,416,"Max Wellian: This celebrity chef is a #multitasking wiz.");
+        break;
+    case 230:
+        draw_text(32,416,"Drooper: Oh no! Your egg turned out #quite sad...");
+        break;
 }
 
 draw_set_font(Font0);

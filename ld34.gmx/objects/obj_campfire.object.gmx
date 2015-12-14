@@ -25,14 +25,20 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(dbclick&gt;0){
+            <string>var rand;
+text[0]="";
+text[1]="";
+text[2]="";
+text[3]="";
+text[4]="";
+if(dbclick&gt;0){
     //dbclicked
     obj_Control.goodLooking+=1;
     obj_Control.statCounter+=1;
     text=instance_create(400,492,obj_uitext);
     text.depth=-1;
     text.image_yscale=0.86;
-    text.textstring="You and the egg chit-chat over marshmallows #and the smell of wood smoke...";
+    text.textstring=string(text[rand]);;
 }else{
     obj_companion.sprite_index=spr_campfire_image;
     dbclick+=20;    

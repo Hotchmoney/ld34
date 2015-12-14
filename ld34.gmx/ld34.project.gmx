@@ -22,6 +22,7 @@
     <sound>sound\birds</sound>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\spr_locked</sprite>
     <sprite>sprites\spr_UI</sprite>
     <sprites name="eggs">
       <sprite>sprites\spr_egg7</sprite>
@@ -198,6 +199,7 @@
       <object>objects\obj_howto</object>
       <object>objects\obj_next</object>
       <object>objects\obj_prev</object>
+      <object>objects\obj_locked</object>
     </objects>
     <object>objects\obj_galleryunlocked</object>
   </objects>
