@@ -15,6 +15,7 @@
     <sound>sound\whale</sound>
     <sound>sound\illuminati</sound>
     <sound>sound\calm_lounge</sound>
+    <sound>sound\Title_screen_music</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_UI</sprite>
@@ -192,7 +193,7 @@
       <object>objects\obj_next</object>
       <object>objects\obj_prev</object>
     </objects>
-    <object>objects\obj_unlocked</object>
+    <object>objects\obj_galleryunlocked</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title_Screen</room>
