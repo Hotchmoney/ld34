@@ -36,6 +36,11 @@ statCounter=1;
 flag=false;
 flag1=false;
 hatchindex=0;
+arrayUn;
+var i;
+for (i=0;i&lt;16;i++){
+    arrayUn[i]=0;
+}
 </string>
           </argument>
         </arguments>
@@ -61,51 +66,67 @@ hatchindex=0;
             <string>switch (hatchindex){
     case 1:
         obj_companion.sprite_index=spr_001;
+        arrayUn[0]=1;
         break;
     case 2:
         obj_companion.sprite_index=spr_002;
+        arrayUn[1]=1;
         break;
     case 3:
         obj_companion.sprite_index=spr_003;
+        arrayUn[2]=1;
         break;
     case 10:
         obj_companion.sprite_index=spr_010;
+        arrayUn[3]=1;
         break;
     case 12:
         obj_companion.sprite_index=spr_012;
+        arrayUn[4]=1;
         break;
     case 13:
         obj_companion.sprite_index=spr_013;
+        arrayUn[5]=1;
         break;
     case 20:
         obj_companion.sprite_index=spr_020;
+        arrayUn[6]=1;
         break;
     case 21:
         obj_companion.sprite_index=spr_021;
+        arrayUn[7]=1;
         break;
     case 23:
         obj_companion.sprite_index=spr_023;
+        arrayUn[8]=1;
         break;
     case 30:
         obj_companion.sprite_index=spr_030;
+        arrayUn[9]=1;
         break;
     case 31:
         obj_companion.sprite_index=spr_031;
+        arrayUn[10]=1;
         break;
     case 32:
         obj_companion.sprite_index=spr_032;
+        arrayUn[11]=1;
         break;
     case 100:
         obj_companion.sprite_index=spr_100;
+        arrayUn[12]=1;
         break;
     case 110:
         obj_companion.sprite_index=spr_110;
+        arrayUn[13]=1;
         break;
     case 120:
         obj_companion.sprite_index=spr_120;
+        arrayUn[14]=1;
         break;
     case 130:
         obj_companion.sprite_index=spr_130;
+        arrayUn[15]=1;
         break;
 }//sprites
 </string>
