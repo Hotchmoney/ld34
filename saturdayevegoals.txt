@@ -15,9 +15,8 @@ MONDAY GOALS
 * two more expansions
 	1/2
 
-* save/load features
+2. save/load features
 
-* eggdex of egg friends
-	subgoal: companion counter
+3. eggdex of egg friends
 
-* credits page
+1. credits page
