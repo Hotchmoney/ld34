@@ -112,6 +112,12 @@
       <sprite>sprites\spr_110</sprite>
       <sprite>sprites\spr_100</sprite>
     </sprites>
+    <sprites name="cave_companions">
+      <sprite>sprites\spr_200</sprite>
+      <sprite>sprites\spr_210</sprite>
+      <sprite>sprites\spr_220</sprite>
+      <sprite>sprites\spr_230</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\Starry_Night</background>
