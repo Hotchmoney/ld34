@@ -80,6 +80,10 @@ flag=false;
             <kind>1</kind>
             <string>obj_companion.sprite_index=obj_companion.spriteindex;
 room_goto(Start_Rooms);
+audio_stop_sound(fire);
+audio_stop_sound(cicadas);
+audio_stop_sound(birds);
+audio_stop_sound(beach);
 </string>
           </argument>
         </arguments>
