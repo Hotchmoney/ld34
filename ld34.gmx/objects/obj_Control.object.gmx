@@ -132,7 +132,7 @@ switch (hatchindex){
         arrayUn[8]=1;
         break;
     case 30: //isaac - illuminati
-        audio_play_sound(,10,false);
+        audio_play_sound(illuminati,10,false);
         obj_companion.sprite_index=spr_030;
         arrayUn[9]=1;
         break;
