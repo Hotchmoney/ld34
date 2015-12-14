@@ -17,6 +17,9 @@
     <sound>sound\calm_lounge</sound>
     <sound>sound\Title_screen_music</sound>
     <sound>sound\beach</sound>
+    <sound>sound\fire</sound>
+    <sound>sound\cicadas</sound>
+    <sound>sound\birds</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_UI</sprite>
