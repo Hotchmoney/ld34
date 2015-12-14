@@ -118,6 +118,7 @@
     <background>background\Kawai_Clouds</background>
     <background>background\Bubble_clouds</background>
     <background>background\TitleScreen</background>
+    <background>background\HowToPlay</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -174,6 +175,7 @@
     <objects name="misc_buttons">
       <object>objects\obj_startover</object>
       <object>objects\obj_goback</object>
+      <object>objects\obj_backtoTitle</object>
       <object>objects\obj_start</object>
       <object>objects\obj_quit</object>
       <object>objects\obj_next</object>
@@ -182,13 +184,14 @@
     <object>objects\obj_unlocked</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Title_Screen</room>
+    <room>rooms\rm_HowTo</room>
     <room>rooms\Start_Rooms</room>
     <room>rooms\rm_play</room>
     <room>rooms\rm_talk</room>
     <room>rooms\rm_food</room>
     <room>rooms\rm_exploring</room>
     <room>rooms\rm_hatchery</room>
-    <room>rooms\Title_Screen</room>
     <room>rooms\rm_gallery</room>
   </rooms>
   <help>
