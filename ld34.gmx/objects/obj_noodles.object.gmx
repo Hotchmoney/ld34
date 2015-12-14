@@ -26,21 +26,22 @@
           <argument>
             <kind>1</kind>
             <string>var rand;
-text[0]="";
-text[1]="";
-text[2]="";
-text[3]="";
-text[4]="";
+text[0]="Sluuuuurp! The egg drinks down every last drop #of broth.";
+text[1]="You and the egg eat some ramen. It reminds the #egg of college.";
+text[2]="You and the egg eat some Udon. The egg loves #asian fusion food.";
+text[3]="You and the egg have some chicken noodle soup. #The egg feels conflicted.";
+text[4]="Over a warm bowl of soup the egg tells you #about the need for proletarian revolt.";
+text[5]="The egg furiously downs it's bowl of noodles. #It's trying to get swol.";
 random_set_seed(get_timer());
-rand=irandom_range(0,4);
+rand=irandom_range(0,5);
 if(dbclick&gt;0){
     //dbclicked
     obj_Control.smarts+=1;
     obj_Control.statCounter+=1;
-    text=instance_create(400,492,obj_uitext);
-    text.depth=-1;
-    text.image_yscale=0.86;
-    text.textstring="Sluuuuurp! The egg drinks down every last drop #of broth...";
+    t=instance_create(400,492,obj_uitext);
+    t.depth=-1;
+    t.image_yscale=0.86;
+    t.textstring=string(text[rand]);
 }else{
     obj_companion.sprite_index=spr_noodles_image;
     dbclick+=20;    

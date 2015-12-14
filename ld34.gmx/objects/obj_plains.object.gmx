@@ -26,21 +26,22 @@
           <argument>
             <kind>1</kind>
             <string>var rand;
-text[0]="";
-text[1]="";
-text[2]="";
-text[3]="";
-text[4]="";
+text[0]="Your egg watches the sun set over the horizon #with an inscrutable expression.";
+text[1]="You and the egg go for a drive on the plains. #The egg keeps changing the station.";
+text[2]="You and the egg visit the plains. It's pretty #plain. I don't know what you expected.";
+text[3]="You and the egg go to Saskatchewan. There's #nothing here.";
+text[4]="The egg stares longingly at the horizon. It #lusts for a life full of meaning.";
+text[5]="The egg thinks these farmers would be better #off if they collectivized.";
 random_set_seed(get_timer());
-rand=irandom_range(0,4);
+rand=irandom_range(0,5);
 if(dbclick&gt;0){
     //dbclicked
     obj_Control.magic+=1;
     obj_Control.statCounter+=1;
-    text=instance_create(400,492,obj_uitext);
-    text.depth=-1;
-    text.image_yscale=0.86;
-    text.textstring = "Your egg watches the sun set over the horizon #with an inscrutable expression....";
+    t=instance_create(400,492,obj_uitext);
+    t.depth=-1;
+    t.image_yscale=0.86;
+    t.textstring = string(text[rand]);
     audio_play_sound(cicadas, 30, true);
 }else{
     obj_companion.sprite_index=spr_plains_image;

@@ -26,21 +26,22 @@
           <argument>
             <kind>1</kind>
             <string>var rand;
-text[0]="";
-text[1]="";
-text[2]="";
-text[3]="";
-text[4]="";
+text[0]="You and the egg work up a sweat as you hike #the rolling hills.";
+text[1]="You chase the egg as it rolls down the hill. #Maybe this wasn't a good idea.";
+text[2]="The hills are alive with the sound of music. #The egg is kind of weirded out.";
+text[3]="You and the egg go for a hike up the hill. #The egg loves the view.";
+text[4]="You reach the top of a big hill. The egg #suggest you just take the bus back.";
+text[5]="You and the egg ride a stolen shopping #cart down the hill. You feel free. So #free.";
 random_set_seed(get_timer());
-rand=irandom_range(0,4);
+rand=irandom_range(0,5);
 if(dbclick&gt;0){
     //dbclicked
     obj_Control.strength+=1;
     obj_Control.statCounter+=1;
-    text=instance_create(400,492,obj_uitext);
-    text.depth=-1;
-    text.image_yscale=0.86;
-    text.textstring="You and the egg work up a sweat as you hike #the rolling hills....";
+    t=instance_create(400,492,obj_uitext);
+    t.depth=-1;
+    t.image_yscale=0.86;
+    t.textstring=string(text[rand]);
     audio_play_sound(birds, 30, true);
 }else{
     obj_companion.sprite_index=spr_hills_image;

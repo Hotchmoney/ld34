@@ -26,21 +26,22 @@
           <argument>
             <kind>1</kind>
             <string>var rand;
-text[0]="";
-text[1]="";
-text[2]="";
-text[3]="";
-text[4]="";
+text[0]="You and the egg pump some iron. It told you it #wants to get swol.";
+text[1]="You time the egg while it does a few laps around #the track.";
+text[2]="The egg benches more than it normally would to #try to impress you.";
+text[3]="The egg spots you while you do some squats.";
+text[4]="You and the egg play some basketball. The egg #makes a sweet three-pointer.";
+text[5]="You catch the egg checking itself out in the #mirror while doing some curls.";
 random_set_seed(get_timer());
-rand=irandom_range(0,4);
+rand=irandom_range(0,5);
 if(dbclick&gt;0){
     //dbclicked
     obj_Control.strength+=1;
     obj_Control.statCounter+=1;
-    text=instance_create(400,492,obj_uitext);
-    text.depth=-1;
-    text.image_yscale=0.86;
-    text.textstring="You and the egg pump some iron. It told you it #wants to get swol....";
+    t=instance_create(400,492,obj_uitext);
+    t.depth=-1;
+    t.image_yscale=0.86;
+    t.textstring=text[rand];
 }else{
     obj_companion.sprite_index=spr_workout_image;
     dbclick+=20;    

@@ -26,21 +26,22 @@
           <argument>
             <kind>1</kind>
             <string>var rand;
-text[0]="";
-text[1]="";
-text[2]="";
-text[3]="";
-text[4]="";
+text[0]="The egg tears into the huge slab of meat. #It must have been ravenous.";
+text[1]="The egg sends its steak back to the kitchen. #Too well done.";
+text[2]="You remark that the egg eats a lot of steak. #The egg tells you to mind your own #business.";
+text[3]="The egg tears into a third fillet mignon. #It's trying to get swol, it says.";
+text[4]="You hold your plate up high and make a joke #about raising the stakes. The egg #doesn't laugh.";
+text[5]="You both enjoy a lovely steak dinner. The #egg offers to grab the bill. #Charming!";
 random_set_seed(get_timer());
-rand=irandom_range(0,4);
+rand=irandom_range(0,5);
 if(dbclick&gt;0){
     //dbclicked
     obj_Control.strength+=1;
     obj_Control.statCounter+=1;
-    text=instance_create(400,492,obj_uitext);
-    text.depth=-1;
-    text.image_yscale=0.86;
-    text.textstring="The egg tears into the huge slab of meat. It must #have been ravenous...";
+    t=instance_create(400,492,obj_uitext);
+    t.depth=-1;
+    t.image_yscale=0.86;
+    t.textstring=string(text[rand]);
 }else{
     obj_companion.sprite_index=spr_steak_image;
     dbclick+=20;    

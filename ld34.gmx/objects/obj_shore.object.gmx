@@ -26,21 +26,22 @@
           <argument>
             <kind>1</kind>
             <string>var rand;
-text[0]="";
-text[1]="";
-text[2]="";
-text[3]="";
-text[4]="";
+text[0]="The foam splashes on you and the egg as you #examine tide pools.";
+text[1]="You both search for seashells. Maybe you #could sell them?";
+text[2]="The egg builds a sand castle. Its pretty #amazing what it can do without hands.";
+text[3]="Frogs croak loudly as you and the egg #explore the coastline.";
+text[4]="The egg is worried the tide is going to #come in soon. Better get going.";
+text[5]="You both look for buried treasure. The #egg finds a dead fish, but that's about it.";
 random_set_seed(get_timer());
-rand=irandom_range(0,4);
+rand=irandom_range(0,5);
 if(dbclick&gt;0){
     //dbclicked
     obj_Control.smarts+=1;
     obj_Control.statCounter+=1;
-    text=instance_create(400,492,obj_uitext);
-    text.depth=-1;
-    text.image_yscale=0.86;
-    text.textstring = "The foam splashes on you and the egg as you #examine tide pools....";
+    t=instance_create(400,492,obj_uitext);
+    t.depth=-1;
+    t.image_yscale=0.86;
+    t.textstring = string(text[rand]);
     audio_play_sound(beach, 30, true);
 }else{
     obj_companion.sprite_index=spr_shore_image;
