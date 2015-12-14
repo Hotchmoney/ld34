@@ -69,6 +69,7 @@ for (i=0;i&lt;16;i++){
         arrayUn[0]=1;
         break;
     case 2:
+        audio_play_sound(bear,10,false);
         obj_companion.sprite_index=spr_002;
         arrayUn[1]=1;
         break;
