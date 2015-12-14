@@ -244,14 +244,19 @@ if (statCounter&gt;=6 &amp;&amp; room!=rm_hatchery){
 
 }
 
+//stop incedental sounds
+if (room == Start_Rooms) {
+    audio_stop_sound(fire);
+    audio_stop_sound(cicadas);
+    audio_stop_sound(birds);
+    audio_stop_sound(beach);
+}
+
 //bug checking
 
 if (statCounter&gt;5 &amp;&amp; (room==rm_play || room==rm_talk || room==rm_food || room==rm_exploring)){
-
     room_goto(Start_Rooms);
-
 }
-
 </string>
           </argument>
         </arguments>
