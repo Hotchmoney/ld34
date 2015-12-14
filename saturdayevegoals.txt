@@ -8,8 +8,7 @@ done
 
 SUNDAY EVENING GOALS
 
-* more text, multiple options
-	* ocean text
+done
 
 MONDAY GOALS
 
@@ -19,3 +18,6 @@ MONDAY GOALS
 * save/load features
 
 * eggdex of egg friends
+	subgoal: companion counter
+
+* credits page
