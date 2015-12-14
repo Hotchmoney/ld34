@@ -80,7 +80,6 @@ flag=false;
             <kind>1</kind>
             <string>obj_companion.sprite_index=obj_companion.spriteindex;
 room_goto(Start_Rooms);
-audio_play_sound(beach, 30, false);
 </string>
           </argument>
         </arguments>
