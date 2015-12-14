@@ -1,6 +1,6 @@
 SATURDAY EVENING GOALS
 
-carter's thing
+done
 
 SUNDAY MORNING GOALS
 
@@ -8,16 +8,13 @@ done
 
 SUNDAY EVENING GOALS
 
-* add nova's UI & splash screen
-
-* add sound
-
 * more text, multiple options
 	* ocean text
 
 MONDAY GOALS
 
 * two more expansions
+	1/2
 
 * save/load features
 
