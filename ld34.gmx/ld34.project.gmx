@@ -13,6 +13,7 @@
     <sound>sound\reindeer_bottles</sound>
     <sound>sound\shark_skull</sound>
     <sound>sound\whale</sound>
+    <sound>sound\illuminati</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_UI</sprite>
