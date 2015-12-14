@@ -63,69 +63,95 @@ for (i=0;i&lt;16;i++){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>switch (hatchindex){
-    case 1:
+            <string>/**
+01 crackle - cloud
+02 grizz - bear
+03 the old lord - elk
+10 skuffle - elephant
+12 chiara - skull
+13 birdbrain - bird
+20 hunkle - man
+21 yonnie - bee
+23 kawaile - whale
+30 isaac - illuminati
+31 moriarty - rat
+32 fiona - pheonix
+100 bernardo - shark
+110 harumphy - turtle
+120 annulara - octopus
+130 bubble - mermaid
+*/
+switch (hatchindex){
+    case 01: //crackle - cloud
         obj_companion.sprite_index=spr_001;
         arrayUn[0]=1;
         break;
-    case 2:
+    case 02: //grizz - bear
         audio_play_sound(bear,10,false);
         obj_companion.sprite_index=spr_002;
         arrayUn[1]=1;
         break;
-    case 3:
+    case 03: //the old lord - elk
+        audio_play_sound(reindeer_bottles,10,false);
         obj_companion.sprite_index=spr_003;
         arrayUn[2]=1;
         break;
-    case 10:
+    case 10: //skuffle - elephant
         obj_companion.sprite_index=spr_010;
         arrayUn[3]=1;
         break;
-    case 12:
+    case 12: //chiara - skull
+        audio_play_sound(shark_skull,10,false);
         obj_companion.sprite_index=spr_012;
         arrayUn[4]=1;
         break;
-    case 13:
+    case 13: //birdbrain - bird
         obj_companion.sprite_index=spr_013;
         arrayUn[5]=1;
         break;
-    case 20:
+    case 20: //hunkle - man
+        audio_play_sound(man,10,false);
         obj_companion.sprite_index=spr_020;
         arrayUn[6]=1;
         break;
-    case 21:
+    case 21: //yonnie - bee
+        audio_play_sound(bee,10,false);
         obj_companion.sprite_index=spr_021;
         arrayUn[7]=1;
         break;
-    case 23:
+    case 23: //kawaile - whale
+        audio_play_sound(whale,10,false);
         obj_companion.sprite_index=spr_023;
         arrayUn[8]=1;
         break;
-    case 30:
+    case 30: //isaac - illuminati
         obj_companion.sprite_index=spr_030;
         arrayUn[9]=1;
         break;
-    case 31:
+    case 31: //moriarty - rat
+        audio_play_sound(rat,10,false);
         obj_companion.sprite_index=spr_031;
         arrayUn[10]=1;
         break;
-    case 32:
+    case 32: //fiona - pheonix
         obj_companion.sprite_index=spr_032;
         arrayUn[11]=1;
         break;
-    case 100:
+    case 100: //bernardo - shark
+        audio_play_sound(shark_skull,10,false);
         obj_companion.sprite_index=spr_100;
         arrayUn[12]=1;
         break;
-    case 110:
+    case 110: //harumphy - turtle
+        audio_play_sound(old_turtle,10,false);
         obj_companion.sprite_index=spr_110;
         arrayUn[13]=1;
         break;
-    case 120:
+    case 120: //annulara - octopus
         obj_companion.sprite_index=spr_120;
         arrayUn[14]=1;
         break;
-    case 130:
+    case 130: //bubble - mermaid
         obj_companion.sprite_index=spr_130;
         arrayUn[15]=1;
         break;
