@@ -39,6 +39,7 @@ if(dbclick&gt;0){
     text.depth=-1;
     text.image_yscale=0.86;
     text.textstring="You and the egg work up a sweat as you hike #the rolling hills....";
+    audio_play_sound(birds, 30, true);
 }else{
     obj_companion.sprite_index=spr_hills_image;
     dbclick+=20;    

@@ -39,6 +39,7 @@ if(dbclick&gt;0){
     text.depth=-1;
     text.image_yscale=0.86;
     text.textstring = "Your egg watches the sun set over the horizon #with an inscrutable expression....";
+    audio_play_sound(cicadas, 30, true);
 }else{
     obj_companion.sprite_index=spr_plains_image;
     dbclick+=20;    

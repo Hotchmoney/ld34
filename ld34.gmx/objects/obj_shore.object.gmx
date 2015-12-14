@@ -39,6 +39,7 @@ if(dbclick&gt;0){
     text.depth=-1;
     text.image_yscale=0.86;
     text.textstring = "The foam splashes on you and the egg as you #examine tide pools....";
+    audio_play_sound(beach, 30, true);
 }else{
     obj_companion.sprite_index=spr_shore_image;
     dbclick+=20;    
