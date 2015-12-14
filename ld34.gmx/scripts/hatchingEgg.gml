@@ -7,6 +7,7 @@ var i,j;
 var maxint;
 var secondmax;
 var toReturn;
+var rand;
 toReturn=0;
 maxint=0;
 secondmax=1;
@@ -26,6 +27,13 @@ for(j=0;j<4;j++){
     if (maxint!=j){
         if (stats[secondmax]<stats[j]){
             secondmax=j;
+        }else if (stats[secondmax]==stats[j]){
+            rand = irandom_range(0,9);
+            if (rand<5){
+                secondmax=j;
+            }else{
+                secondmax=secondmax;
+            }
         }
     }
 }//end for loop (have found the second max int)

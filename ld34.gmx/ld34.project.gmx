@@ -179,6 +179,7 @@
       <object>objects\obj_next</object>
       <object>objects\obj_prev</object>
     </objects>
+    <object>objects\obj_unlocked</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start_Rooms</room>

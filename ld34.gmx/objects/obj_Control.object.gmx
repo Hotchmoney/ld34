@@ -36,7 +36,7 @@ statCounter=1;
 flag=false;
 flag1=false;
 hatchindex=0;
-arrayUn;
+arrayUn[0]=0;
 var i;
 for (i=0;i&lt;16;i++){
     arrayUn[i]=0;
