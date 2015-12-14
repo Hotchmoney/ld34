@@ -14,6 +14,7 @@
     <sound>sound\shark_skull</sound>
     <sound>sound\whale</sound>
     <sound>sound\illuminati</sound>
+    <sound>sound\calm_lounge</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_UI</sprite>
