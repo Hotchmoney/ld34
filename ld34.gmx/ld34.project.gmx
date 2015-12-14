@@ -4,7 +4,16 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\bear</sound>
+    <sound>sound\bee</sound>
+    <sound>sound\man</sound>
+    <sound>sound\old_turtle</sound>
+    <sound>sound\rat</sound>
+    <sound>sound\reindeer_bottles</sound>
+    <sound>sound\shark_skull</sound>
+    <sound>sound\whale</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_UI</sprite>
     <sprites name="eggs">
