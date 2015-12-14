@@ -137,6 +137,7 @@
     <background>background\Bubble_clouds</background>
     <background>background\TitleScreen</background>
     <background>background\HowToPlay</background>
+    <background>background\credits</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -213,6 +214,7 @@
     <room>rooms\rm_exploring</room>
     <room>rooms\rm_hatchery</room>
     <room>rooms\rm_gallery</room>
+    <room>rooms\rm_credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
