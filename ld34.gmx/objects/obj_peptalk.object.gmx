@@ -26,21 +26,22 @@
           <argument>
             <kind>1</kind>
             <string>var rand;
-text[0]="";
-text[1]="";
-text[2]="";
-text[3]="";
-text[4]="";
+text[0]="You give the egg an inspiring speech, and it feels #like it can do anything.";
+text[1]="You tell the egg that it IS beautiful, and that it #CAN make a difference. It hopes so.";
+text[2]="You tell the egg you'll love it no matter what it #decides to do with its life.";
+text[3]="You remind the egg that Einstein failed math in #school too.";
+text[4]="You give the egg a long motivational speech. #There are other boys out there, egg.";
+text[5]="You remark that the egg's shell looks extra glossy today. The egg blushes.";
 random_set_seed(get_timer());
-rand=irandom_range(0,4);
+rand=irandom_range(0,5);
 if(dbclick&gt;0){
     //dbclicked
     obj_Control.strength+=1;
     obj_Control.statCounter+=1;
-    text=instance_create(400,492,obj_uitext);
-    text.depth=-1;
-    text.image_yscale=0.86;
-    text.textstring="You give the egg an inspiring speech, and it feels #like it can do anything....";
+    t=instance_create(400,492,obj_uitext);
+    t.depth=-1;
+    t.image_yscale=0.86;
+    t.textstring=text[rand[;
 }else{
     obj_companion.sprite_index=spr_peptalk_image;
     dbclick+=20;    

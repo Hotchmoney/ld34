@@ -26,21 +26,22 @@
           <argument>
             <kind>1</kind>
             <string>var rand;
-text[0]="";
-text[1]="";
-text[2]="";
-text[3]="";
-text[4]="";
+text[0]="The egg chuckles at the funny you made. What a #knee-slapper!";
+text[1]="The egg tells you to vote for Marco Rubio. What #a kidder!";
+text[2]="You ask the egg what made the chicken cross the #road. The egg is unimpressed.";
+text[3]="You make a joke and then the egg makes a joke #but it's a little racist. Awkward.";
+text[4]="You and the egg have a great time making puns.#It's Eggcelent.";
+text[5]="'What's E.T short for? Because he's got such tiny legs!' The egg reminds you of Dad.";
 random_set_seed(get_timer());
-rand=irandom_range(0,4);
+rand=irandom_range(0,5);
 if(dbclick&gt;0){
     //dbclicked
     obj_Control.goodLooking+=1;
     obj_Control.statCounter+=1;
-    text=instance_create(400,492,obj_uitext);
-    text.depth=-1;
-    text.image_yscale=0.86;
-    text.textstring="The egg chuckles at the funny you made. What a #knee-slapper!";
+    t=instance_create(400,492,obj_uitext);
+    t.depth=-1;
+    t.image_yscale=0.86;
+    t.textstring=text[rand];
 }else{
     obj_companion.sprite_index=spr_joke_image;
     dbclick+=20;    
