@@ -40,7 +40,7 @@ flag1=false;
 hatchindex=0;
 arrayUn[0]=0;
 var i;
-for (i=0;i&lt;16;i++){
+for (i=0;i&lt;20;i++){
     arrayUn[i]=0;
 }
 audio_play_sound(calm_lounge, 20, true);

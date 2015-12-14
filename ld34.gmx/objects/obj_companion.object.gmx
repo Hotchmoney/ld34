@@ -28,6 +28,7 @@
             <string>step=0;
 flag=true;
 var i;
+random_set_seed(get_timer());
 i=irandom_range(0,79);
 show_debug_message(string(i));
 if (i&lt;10){

@@ -9,6 +9,7 @@ var maxint;
 var secondmax;
 var toReturn;
 var rand;
+random_set_seed(get_timer());
 toReturn=0;
 maxint=0;
 secondmax=1;

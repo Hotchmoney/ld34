@@ -31,6 +31,8 @@ text[1]="";
 text[2]="";
 text[3]="";
 text[4]="";
+random_set_seed(get_timer());
+rand=irandom_range(0,4);
 if(dbclick&gt;0){
     //dbclicked
     obj_Control.goodLooking+=1;

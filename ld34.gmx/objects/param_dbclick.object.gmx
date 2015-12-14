@@ -49,7 +49,7 @@
           <argument>
             <kind>1</kind>
             <string>dbclick-=1;
-dbclick=clamp(dbclick,-9,20);
+dbclick=clamp(dbclick,-7,20);
 </string>
           </argument>
         </arguments>

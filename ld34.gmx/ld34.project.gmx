@@ -201,7 +201,6 @@
       <object>objects\obj_prev</object>
       <object>objects\obj_locked</object>
     </objects>
-    <object>objects\obj_galleryunlocked</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title_Screen</room>
