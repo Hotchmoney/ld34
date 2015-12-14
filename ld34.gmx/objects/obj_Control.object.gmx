@@ -299,6 +299,17 @@ draw_text_transformed(32,260,"Magic : "+string(magic),0.5,0.5,0);
 draw_text_transformed(32,280,"Index : "+string(hatchindex),0.5,0.5,0);
 draw_set_font(Font0);
 */
+if (room==rm_hatchery){
+    var i;
+    var j;
+    i=0;
+    for (j=0;j&lt;20;j++){
+        if (arrayUn[j]==1){
+            i++;
+        }
+    }
+    draw_text_transformed(32,16,"Unlocked : "+string(i)+"/20 #possible companions!",0.75,0.75,0);
+}
 </string>
           </argument>
         </arguments>
