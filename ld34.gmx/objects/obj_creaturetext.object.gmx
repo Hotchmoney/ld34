@@ -85,7 +85,8 @@ switch (obj_Control.hatchindex){
         draw_text(32,416,"Isaac: This mysterious pyramid is strong #of will and always looking behind it's #back.");
         break;
     case 031:
-        draw_text(32,416,"Moriarty: No one knows how this rat learned #magic, but you gotta respect her, right?");
+        draw_text(32,416,"Moriarty: No one knows how this rat learned #magic, but you gotta respect her, right? #You've now unlocked the Cave explore!");
+        obj_Control.caveunlock=true;
         break;
     case 032:
         draw_text(32,416,"Fiona: This pheonix is 300 but she's never #had a stitch of work done!");

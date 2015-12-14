@@ -28,42 +28,24 @@
             <string>step=0;
 flag=true;
 var i;
-i=irandom_range(1,8);
+i=irandom_range(0,79);
 show_debug_message(string(i));
-switch (i){
-
-    case 1:
-        sprite_index=spr_egg1;
-        break;
-    
-    case 2:
-        sprite_index=spr_egg2;
-        break;
-    
-    case 3:
-        sprite_index=spr_egg3;
-        break;
-    
-    case 4:
-        sprite_index=spr_egg4;
-        break;
-    
-    case 5:
-        sprite_index=spr_egg5;
-        break;
-    
-    case 6:
-        sprite_index=spr_egg6;
-        break;
-    
-    case 7:
-        sprite_index=spr_egg7;
-        break;
-    
-    case 8:
-        sprite_index=spr_egg8;
-        break;
-    
+if (i&lt;10){
+    sprite_index=spr_egg1;
+}else if (i&lt;20){
+    sprite_index=spr_egg2;
+}else if (i&lt;30){
+    sprite_index=spr_egg3;
+}else if (i&lt;40){
+    sprite_index=spr_egg4;
+}else if (i&lt;50){
+    sprite_index=spr_egg5;
+}else if(i&lt;60){
+    sprite_index=spr_egg6;
+}else if (i&lt;70){
+    sprite_index=spr_egg7;
+}else{
+    sprite_index=spr_egg8;
 }
 spriteindex = sprite_index;
 </string>

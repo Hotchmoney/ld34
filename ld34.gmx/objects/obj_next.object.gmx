@@ -30,7 +30,12 @@ with(obj_hills){instance_destroy()};
 with(obj_plains){instance_destroy()};
 with(obj_shore){instance_destroy()};
 
-instance_create(224,448,obj_ocean);
+if (obj_Control.waterunlock==true){
+    instance_create(224,448,obj_ocean);
+}
+if (obj_Control.caveunlock==true){
+    instance_create(544,448,obj_cave);
+}
 instance_create(44,489,obj_prev);
 
 instance_destroy();

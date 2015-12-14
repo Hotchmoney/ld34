@@ -30,7 +30,6 @@
     obj_Control.goodLooking+=1;
     obj_Control.statCounter+=1;
     text=instance_create(400,492,obj_uitext);
-    audio_play_sound(snd_fire,10,false);
     text.depth=-1;
     text.image_yscale=0.86;
     text.textstring="You and the egg chit-chat over marshmallows #and the smell of wood smoke...";

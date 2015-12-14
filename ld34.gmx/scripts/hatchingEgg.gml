@@ -3,6 +3,7 @@ stats[1]=argument1;
 stats[2]=argument2;
 stats[3]=argument3;
 var waterflag=argument4;
+var caveflag=argument5;
 var i,j;
 var maxint;
 var secondmax;
@@ -38,13 +39,26 @@ for(j=0;j<4;j++){
     }
 }//end for loop (have found the second max int)
 
-if (waterflag==true){
+if (waterflag==true && caveflag==false){
     toReturn+=100;
+    toReturn+=(maxint*10);
+    return toReturn;
+}else if (waterflag==false && caveflag==true){
+    toReturn+=200;
+    toReturn+=(maxint*10);
+    return toReturn;
+}else if (waterflag==true && caveflag==true){
+    rand=irandom_range(0,9);
+    if (rand<5){
+        toReturn+=100;
+    }else{
+        toReturn+=200;
+    }
     toReturn+=(maxint*10);
     return toReturn;
 }else{
     toReturn=0;
-}//have sent waterflag
+}
 
 switch (secondmax){
 

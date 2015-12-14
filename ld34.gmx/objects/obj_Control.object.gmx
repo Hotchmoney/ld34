@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>//stats block
 waterunlock=false;
+caveunlock=false;
+iscave=false;
 iswater=false;
 strength=0;
 smarts=0;
@@ -81,6 +83,10 @@ audio_play_sound(calm_lounge, 20, true);
 110 harumphy - turtle
 120 annulara - octopus
 130 bubble - mermaid
+200
+210
+220
+230
 */
 switch (hatchindex){
     case 01: //crackle - cloud
@@ -157,6 +163,22 @@ switch (hatchindex){
         obj_companion.sprite_index=spr_130;
         arrayUn[15]=1;
         break;
+    case 200:
+        obj_companion.sprite_index=spr_200;
+        arrayUn[16]=1;
+        break;
+    case 210:
+        obj_companion.sprite_index=spr_210;
+        arrayUn[17]=1;
+        break;
+    case 220:
+        obj_companion.sprite_index=spr_220;
+        arrayUn[18]=1;
+        break;
+    case 230:
+        obj_companion.sprite_index=spr_230;
+        arrayUn[19]=1;
+        break;
 }//sprites
 </string>
           </argument>
@@ -206,7 +228,7 @@ room_goto(rm_hatchery);
             <kind>1</kind>
             <string>
 if (statCounter&gt;=6 &amp;&amp; flag1==false &amp;&amp; room==Start_Rooms){
-    hatchindex = hatchingEgg(strength,smarts,goodLooking,magic,iswater);
+    hatchindex = hatchingEgg(strength,smarts,goodLooking,magic,iswater,iscave);
     flag=true;
     flag1=true;
 }//when stat counter reaches 5, we call hatching egg to find out max value and then we do a switch to switch sprite index.
