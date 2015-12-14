@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_play_sound(Title_screen_music,10,true);
+            <string>if (!audio_is_playing(Title_screen_music)){
+    audio_play_sound(Title_screen_music,10,true);
+}
 </string>
           </argument>
         </arguments>
