@@ -26,21 +26,24 @@
           <argument>
             <kind>1</kind>
             <string>var rand;
-text[0]="";
-text[1]="";
-text[2]="";
-text[3]="";
-text[4]="";
+text[0]="You perplex the egg with a brain-teaser. It #furrows its brow.";
+text[1]="What came first, the chicken or the egg? This #egg's answer might shock you.";
+text[2]="You and the egg wrestle with Derek Parfit's #“Non-Identity Problem”. Pretty Meta.";
+text[3]="The egg struggles to rationalize how the market #can possibly be self regulating.";
+text[4]="What loses its head in the morning but gets it #back at night? A pillow.";
+text[5]="What two things can you never have for breakfast?#Lunch and dinner.";
+text[6]="You pepper the egg with a series of puzzles.#It aces all of them. You're impressed.";
+text[7]="You and the egg spend long hours trying to #prove the Rieman Hypothesis.";
 random_set_seed(get_timer());
-rand=irandom_range(0,4);
+rand=irandom_range(0,7);
 if(dbclick&gt;0){
     //dbclicked
     obj_Control.smarts+=1;
     obj_Control.statCounter+=1;
-    text=instance_create(400,492,obj_uitext);
-    text.depth=-1;
-    text.image_yscale=0.86;
-    text.textstring="You perplex the egg with a brain-teaser. It #furrows its brow...";
+    t=instance_create(400,492,obj_uitext);
+    t.depth=-1;
+    t.image_yscale=0.86;
+    t.textstring=text[rand];
 }else{
     obj_companion.sprite_index=spr_riddle_image;
     dbclick+=20;    
