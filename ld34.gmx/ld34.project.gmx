@@ -23,7 +23,6 @@
     <sound>sound\sound_hatching</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_locked</sprite>
     <sprite>sprites\spr_UI</sprite>
     <sprites name="eggs">
       <sprite>sprites\spr_egg7</sprite>
@@ -64,6 +63,8 @@
       <sprite>sprites\spr_next</sprite>
       <sprite>sprites\spr_prev</sprite>
       <sprite>sprites\spr_credits</sprite>
+      <sprite>sprites\spr_locked</sprite>
+      <sprite>sprites\sprite78</sprite>
     </sprites>
     <sprites name="explore_buttons">
       <sprite>sprites\spr_campfire</sprite>
