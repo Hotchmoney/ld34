@@ -64,7 +64,6 @@
       <sprite>sprites\spr_prev</sprite>
       <sprite>sprites\spr_credits</sprite>
       <sprite>sprites\spr_locked</sprite>
-      <sprite>sprites\sprite78</sprite>
     </sprites>
     <sprites name="explore_buttons">
       <sprite>sprites\spr_campfire</sprite>
