@@ -219,7 +219,7 @@ room_goto(rm_hatchery);
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>other</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -265,9 +265,7 @@ if (room==rm_hatchery){
 
 //bug checking
 
-if (statCounter&gt;5 &amp;&amp; (room==rm_play || room==rm_talk || room==rm_food || room==rm_exploring)){
-    room_goto(Start_Rooms);
-}
+
 </string>
           </argument>
         </arguments>
