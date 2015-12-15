@@ -63,6 +63,7 @@
       <sprite>sprites\spr_howto</sprite>
       <sprite>sprites\spr_next</sprite>
       <sprite>sprites\spr_prev</sprite>
+      <sprite>sprites\spr_credits</sprite>
     </sprites>
     <sprites name="explore_buttons">
       <sprite>sprites\spr_campfire</sprite>
@@ -202,6 +203,7 @@
       <object>objects\obj_next</object>
       <object>objects\obj_prev</object>
       <object>objects\obj_locked</object>
+      <object>objects\obj_credits</object>
     </objects>
   </objects>
   <rooms name="rooms">

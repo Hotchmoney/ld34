@@ -237,7 +237,7 @@ if (flag==true){
     flag=false;
 }
 
-if (statCounter&gt;=6 &amp;&amp; room!=rm_hatchery){
+if (statCounter&gt;=6 &amp;&amp; room!=rm_hatchery &amp;&amp; room!=rm_credits){
 
     obj_companion.sprite_index=obj_companion.spriteindex;
 
